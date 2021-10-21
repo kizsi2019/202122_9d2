@@ -1,6 +1,6 @@
  
 import random
-randomvalasz = random.randint(0,1)
+randomvalasz = random.randint(0,5)
 szam = int(input('Adj meg egy számot!'))
 
 if szam >5:
