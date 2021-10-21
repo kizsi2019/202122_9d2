@@ -2,14 +2,15 @@ import random
 import math
 
 # Legkisebb és legnagyobb szám megadása / input
-legkisebb = int(input("Legkisebb szám: "))
-nagyobb = int(input("Legnagyobb szám: "))
+print("Add meg a legkisebb és legnagyobb számokat amelyek benne lesznek a játékban.")
+legkisebb = int(input("Legkisebb szám a játékban: "))
+nagyobb = int(input("Legnagyobb szám a játékban: "))
 
 # Esély kiszámolása a legkisebb és legnagyobb összeadásával / math
 x = random.randint(legkisebb, nagyobb)
 print("Csak",
 	round(math.log(nagyobb + legkisebb)),
-	" esélyed van arra, hogy kitaláld a számot.")
+	"próbálkozásod lehet, hogy kitaláld a számot!")
 
 # Próbálkozások száma változó és annak alapértéke / változó
 probalkozascount = 0
@@ -21,8 +22,8 @@ while probalkozascount < math.log(nagyobb + legkisebb):
 	tipp = int(input("Tippelj egy számot: "))
 
 	if x == tipp:
-		print("Siker! Megcsináltad ennyi próbálkozásból!: ",
-			probalkozascount, " próbálkozás")
+		print("Gratulálunk! Sikerült kitalálnod a számot! Próbálkozások száma: ",
+			probalkozascount, "")
 
 # Ha túl nagy vagy túl kicsi a megadott szám 
 		break
