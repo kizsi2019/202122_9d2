@@ -9,7 +9,7 @@ nagyobb = int(input("Legnagyobb szám: "))
 x = random.randint(legkisebb, nagyobb)
 print("Csak",
 	round(math.log(nagyobb + legkisebb)),
-	" szám van hogy kitaláld")
+	" esélyed van arra, hogy kitaláld a számot.")
 
 # Próbálkozások száma változó és annak alapértéke / változó
 probalkozascount = 0
@@ -27,9 +27,9 @@ while probalkozascount < math.log(nagyobb + legkisebb):
 # Ha túl nagy vagy túl kicsi a megadott szám 
 		break
 	elif x > tipp:
-		print("A megadott szám túl kicsi!")
+		print("A megadott szám túl kicsi, próbálkozz tovább!")
 	elif x < tipp:
-		print("A megadott szám túl nagy!")
+		print("A megadott szám túl nagy, próbálkozz tovább!")
 
 # A random legenerált szám eredeménye és a tippelt szám
 
