@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kahoot Bot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+</head>
+<body>
+    <h1>Kahoot Bots</h1>
+        <form id="data">
+                Game Pin: <br>
+                <input type="text" id="pin"><br>
+                Amount of Bots:<br>
+                <input type="text" id="amount">
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+              <p>
+                  Enter in a game pin and the amount of bots you want to join(max of 35 at a time but can be ran multiple times). The bots will generate a random first name and Kahoot will start to ban players of you generate too many bots at a time.
+              </p>
+
+    <script>
+        var socket = io.connect();
+        
+        $('#amount').val("10")
+        $('form').submit(function(){
+           
+      socket.emit('kahoot', {
+          amount: $('#amount').val(),
+          pin:  $('#pin').val()
+       });
+      $('#amount').val('');
+   
+      return false
+    });
+
+
+
+        
+    
+    
+    </script>
+    
+</body>
+</html>
