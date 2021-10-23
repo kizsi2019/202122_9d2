@@ -19,5 +19,7 @@ kliens.on("quizEnd", () => {
     console.log("a játék véget ért");
 });
 
+// FEJLESZTÉS ALATT!
+// A bot működéséhez jár egy webes felület illetve egy feldolgozó (készítésük folyamatban van)
 // A hibátlan működéshez szükséges a selenium keretrendszer illetve a Kahoot.js telepítése (npm install kahoot.js).
 // Írd be a játék pint a "jatekpin" mezőbe.
