@@ -38,3 +38,4 @@ while probalkozascount < math.log(nagyobb + legkisebb):
 if probalkozascount >= math.log(nagyobb + legkisebb):
 	print("\nA szám ez volt: %d" % x)
 
+# (c) Dunai Krisztian 
