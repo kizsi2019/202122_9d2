@@ -1,3 +1,4 @@
+# Made by Krisztian
 import random
 import math
 
@@ -6,7 +7,7 @@ print("Add meg a legkisebb és legnagyobb számokat amelyek benne lesznek a ját
 legkisebb = int(input("Legkisebb szám a játékban: "))
 nagyobb = int(input("Legnagyobb szám a játékban: "))
 
-# Esély kiszámolása a legkisebb és legnagyobb összeadásával / math
+# Maximum próbálkozások számának kiszámolása / math
 x = random.randint(legkisebb, nagyobb)
 print("Csak",
 	round(math.log(nagyobb + legkisebb)),
