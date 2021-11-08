@@ -8,3 +8,5 @@ if szam == szam2:
 
 else:
     print("Nem találtad el a számot!")
+
+    
