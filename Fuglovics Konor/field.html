@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<form></form>
+<form>
     <fieldset>
         <legend>504 Error</legend>
     <progress value="11" max="100"></progress>
@@ -54,7 +54,55 @@
             </label>
             <input type="radio" name="gender" value="no" id="no">
         </li>
+        <li>
+            <label type=colors>
+                Színek
+            </label>
+            <select id=colors>
+                <option value=red>piros</option>
+                <option value=white>fehér</option>
+                <option value=zöld>zöld</option>
+                <option value=kék>kék</option>
+            </select>
+        </li>
+        <li>
+            <label type=auto>
+                Autó
+            </label>
+            <select id=auto>
+                <optgroup label=Német>
+                    <option value=volkswagen>Volkswagen</option>
+                    <option value=audi>Audi</option>
+                </optgroup>
+                <optgroup label=Japán>
+                    <option value=mitsubishi>Mitsubishi</option>
+                    <option value=mazda>Mazda</option>
+                </optgroup>
+            </select>
+        </li>
+        <li>
+            <label for=introduction>
+                Bemutatkozás
+            </label>
+            <textarea id=introduction name=bemutatkozas rows=5 cols=60></textarea>
+        </li>
+        <li>
+            <label for=cw>
+                Önéletrajz
+            </label>
+            <input type=file id=cw>
+        </li>
+        <li>
+            <label for=required>
+                Bankkártya számai:
+            </label>
+            <input type=required>
+        </li>
+        <li>
+            <input type=submit>
+        </li>
     </ul>
     </fieldset>
+</form>
 </body>
 </html>
