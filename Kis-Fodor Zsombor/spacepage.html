@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>űrlap</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                űrlap
+            </legend>
+            <progress value="0" max="100"></progress>
+            <ul>
+
+                <li>
+                    <label for="drivingname">
+                        Vezetéknév:
+                    </label>
+                    <input type="text" id="drivingname" placeholder="Vezetéknév">
+                </li>
+
+                <li>
+                    <label for="crossname">
+                        Keresztnév:
+                    </label>
+                    <input type="text" id="crossname" placeholder="Keresztnév">
+                </li>
+
+                <li>
+                    <label for="email">
+                        Email:
+                    </label>
+                    <input type="email" id="email" placeholder="Email">
+                </li>
+
+                <li>
+                    <label for="passworduwu">
+                        jelszó:
+                    </label>
+                    <input type="password" id="passworduwu" placeholder="jelszó">
+                </li>
+
+                <li>
+                    <label for="newspage">
+                        hírlevél:
+                    </label>
+                    <input type="checkbox" id="newspage" placeholder="hírlevél">
+                </li>
+
+                <li>
+                    <label for="man">
+                        férfi:
+                    </label>
+                    <input type="radio" name="gender" id="man">
+                </li>
+
+                <li>
+                    <label for="woman">
+                        nő:
+                    </label>
+                    <input type="radio" name="gender" id="woman">
+                </li>
+
+                <li>
+                    <label for="else">
+                        egyéb:
+                    </label>
+                    <input type="radio" name="gender" id="else">
+                </li>
+
+                <li>
+                    <label for="colors">
+                        Színek
+                    </label>
+                    <select id="colors">
+                        <option value="red">Piros</option>
+                        <option value="purple">Lila</option>
+                        <option value="black">Fekete</option>
+                    </select>
+                </li>
+
+                <li>
+
+                    <label for="kocsi">
+                        Autó
+                    </label>
+                    <select id="kocsi">
+
+                        <optgroup label="Német">
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Porsche">Porsche</option>
+                            <option value="Mercedes">Mercedes</option>
+                            <option value="Volkswagen">Volkswagen</option>
+                        </optgroup>
+
+                        <optgroup label="Amerika">
+                            <option value="Pontiac">Pontiac</option>
+                            <option value="Chevrolet">Chevrolet</option>
+                            <option value="Buick">Buick</option>
+                            <option value="GMC">GMC</option>
+                            <option value="Cadillac">Cadillac</option>
+                            <option value="Ford">Ford</option>
+                        </optgroup>
+
+                        <optgroup label="Japán">
+                            <option value="Mazda">Mazda</option>
+                            <option value="Mitsubshi">Mitsubshi</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Honda">Honda</option>
+                            <option value="Suzuki">Suzuki</option>
+                            <option value="Subaru">Subaru</option>
+                        </optgroup>
+                    </select>
+                </li>
+
+                <li>
+                    <label for="introduction">
+                        Bemutatkozás:
+                    </label>
+                    <textarea id="introduction" rows="4" cols="50">pls put text
+                    </textarea>
+                </li>
+
+                <li>
+                    <label for="cv">
+                        önéletrajz:
+                    </label>
+                    <input type="file" id="cv">
+                </li>
+
+                    <button type="submit">beküldés</button>
+                
+            </ul>
+        </fieldset>
+    </form>
+</body>
+</html>
