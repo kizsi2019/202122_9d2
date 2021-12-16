@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <fieldset>
+        <legend>504 Error</legend>
+    <progress value="11" max="100"></progress>
+    <ul>
+        <li>
+            <label for="vezeteknev">
+                Vezetéknév:
+            </label>
+            <input type="text" id="vezeteknev" placeholder="Vezetéknév">
+        </li>
+        <li>
+            <label for="keresztnev">
+                Keresztnév:
+            </label>
+            <input type="text" id="keresztnev" placeholder="Keresztnév">
+        </li>
+        <li>
+            <label for="email">
+                E-mail:
+            </label>
+            <input type="email" id="email" placeholder="E-mail cím">
+        </li>
+        <li>
+            <label for="jelszo">
+                Jelszó:
+            </label>
+            <input type="password" id="jelszo" placeholder="Jelszó">
+        </li>
+        <li>
+            <label for="hirlevel">
+                Hírlevél:
+            </label>
+            <input type="checkbox" id="hirlevel">
+        </li>
+        <li>
+            <label for="ferfi">
+                Férfi:
+            </label>
+            <input type="radio" name="gender" value="ferfi" id="ferfi">
+        </li>
+        <li>
+            <label for="no">
+                Nő:
+            </label>
+            <input type="radio" name="gender" value="no" id="no">
+        </li>
+        <li>
+            <label type=colors>
+                Színek
+            </label>
+            <select id=colors>
+                <option value=red>piros</option>
+                <option value=white>fehér</option>
+                <option value=zöld>zöld</option>
+                <option value=kék>kék</option>
+            </select>
+        </li>
+        <li>
+            <label type=auto>
+                Autó
+            </label>
+            <select id=auto>
+                <optgroup label=Német>
+                    <option value=volkswagen>Volkswagen</option>
+                    <option value=audi>Audi</option>
+                </optgroup>
+                <optgroup label=Japán>
+                    <option value=mitsubishi>Mitsubishi</option>
+                    <option value=mazda>Mazda</option>
+                </optgroup>
+            </select>
+        </li>
+        <li>
+            <label for=introduction>
+                Bemutatkozás
+            </label>
+            <textarea id=introduction name=bemutatkozas rows=5 cols=60></textarea>
+        </li>
+        <li>
+            <label for=cw>
+                Önéletrajz
+            </label>
+            <input type=file id=cw>
+        </li>
+        <li>
+            <label for=required>
+                Bankkártya számai:
+            </label>
+            <input type=required>
+        </li>
+        <li>
+            <input type=submit>
+        </li>
+    </ul>
+    </fieldset>
+</form>
+</body>
+</html>
