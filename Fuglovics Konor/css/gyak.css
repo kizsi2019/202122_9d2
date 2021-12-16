@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+body{
+    background: url(../pics/bg-body.gif) repeat fixed;
+    color: rgba(1, 1, 1, 0.001);
+}
