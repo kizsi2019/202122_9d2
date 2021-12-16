@@ -2,7 +2,6 @@ nap = (input('Jó napod van? '))
 if nap == ('igen'):
 	print('Szép napot!')
 elif nap == ('nem'):
-	print('Sajnálom')
+	print('Sajnálom...')
 else:
-	print('nem jó a válaszod')
-print('>> A program vége! <<')
+	print('Nem jó a válaszod!')
