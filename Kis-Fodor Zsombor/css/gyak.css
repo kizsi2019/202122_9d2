@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital.wght@0,100;1,900&display=swap');
+
+body
+{
+    background: url(../pics/bg-body.gif) repeat scroll;
+    color: brown;
+    font-size: 24px;
+    font-style: bold;
+    line-height: 34px;
+    font-family: 'Roboto', sans-serif;
+}

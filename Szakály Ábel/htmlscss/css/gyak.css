@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;700&display=swap');
+
+
+
+body {
+    background: url(../pics/bg-body.gif) repeat fixed;
+    
+    color:blueviolet;
+    font-size: 20px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    line-height: 50px;
+
+
+}

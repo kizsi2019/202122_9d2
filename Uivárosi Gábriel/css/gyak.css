@@ -1,0 +1,9 @@
+body{  
+    background: url(../pics/bg-body.gif) repeat  fixed ;
+    
+    color: rgb(10, 231, 247);
+    font-size: 24px;
+    font-style: bold;
+    line-height: 69px;
+    font-family:  Tahoma, Verdana, sans-serif;
+}
