@@ -1,0 +1,188 @@
+/* A könyvben nem minden tulajdonságra tudtunk kitérni. Ezért a beállítások mellé egy rövid magyarázatot is írtunk. */
+
+/* A háttérszín beállítása szürke színre*/
+html {background-color:gray;}
+
+/* A dokumentumtörzs megjelenésének beállítása */
+body {
+ margin-top:20px;  		/* felső margó */
+ margin-bottom:20px;	/* alsó margó */
+ /* bal és jobb margó 'auto' beállítása középre igazítást jelent */
+ margin-left:auto;		
+ margin-right:auto;	
+ /* középre igazítás vége */
+ font-size:120%;		/* betű mérete */
+ width:80%;				/* szélesség */
+ font-family: Verdana, Arial, sans-serif;	/* betűtípus */
+ background-color:white;	/* háttérszín */
+ border:1px solid black;	/* vékony, folytonos, feket szegély*/
+ box-shadow:5px 5px 20px black;	
+ /* fekete doboz árnyék. Jobbra vetül 5 képponttal, lefele 5 képponttal, és 20 képpontos az elmosás*/
+  }
+
+/* bekezdések megjelenésének beállítása */
+ p {
+	 margin-left:20px;		/* bal margó */
+	 margin-right:30px;		/* jobb margó */
+ }
+ 
+/* felsoroláslisták megjelenésének beállítása */
+ul {
+	background-color:black;	/* fekete háttérszín*/
+	margin:0;				/* margó lenullázása */ 
+	padding:30px;			/* belső kitöltés */
+}
+
+/* listaelemek megjelenésének beállítása */
+li {
+	list-style-image:url('../kepek/mancs.png');		/* egyedi felsorolásjel beállítása */
+	color:white;		/* fehér szövegszín */
+	margin-left:40px;	/* bal margó */
+	line-height:40px;	/* sor magasságának beállítása */
+	}
+
+/* 1-es címsorok megjelenésének beállítása */
+h1 {
+	color:white;		/* fehér szövegszín */
+	border-bottom:10px solid darkred;	/*vastag, sötétpiros alsó szegély*/
+	background-color:black;				/* fekete háttérszín*/
+	padding:10px;						/* belső kitöltés */
+	margin:0;							/* margó lenullázása */ 
+		}
+
+/* 2-es címsorok megjelenésének beállítása */
+h2 {
+	padding:10px;		/* belső kitöltés */
+	color:darkred;		/* sötétvörös szövegszín*/
+	text-shadow:1px 1px gray;	/* szürke szövegárnyék beállítása*/
+}
+
+/*A fontos osztályba tartozó bekezdések megjelenésének beállítása */
+p.fontos {
+	padding-top:20px;		/* belső kitöltés felül */
+	padding-right:20px;		/* belső kitöltés jobb oldalon */
+	padding-bottom:20px;	/* belső kitöltés alul */
+	padding-left:60px;		/* belső kitöltés bal oldalon */
+	margin-right:40px;		/* margó jobb oldalon */
+	background-color:darkred;	/* sötétvörös háttérszín*/
+	color:white;				/* fehér szövegszín*/
+	background-image:url('../kepek/mancs.png');	/* háttérkép beállítása*/
+	background-repeat:no-repeat;	/* ne ismétlődjön a háttérkép*/
+	background-position:0 20px;		/* a háttérkép pozíciója */
+	width:40%;				/* szélesség beállítása */
+	float:right;			/* jobbra lebeg az elem, vagyis a többi elem balról veszi körbe */
+	transform:rotate(2deg); /* elforgatás */
+	border-radius:10px;		/* szegély lekerekítése*/
+	}
+
+/*A menu osztályba tartozó bekezdések megjelenésének beállítása */
+p.menu {
+	text-align:center;		/* szöveg középre igazítása*/
+	padding:10px;			/* belső kitöltés*/
+	font-weight:bold;		/* félkövér megjelenés*/
+	font-size:130%;			/* betű mérete */
+}
+
+/*A hivatkozások megjelenésének beállítása */
+a {font-style:italic;}  	/* dőlt betűs megjelenés*/
+
+/*A képfeliratok megjelenésének beállítása */
+figcaption {
+	text-align:center;		/* szöveg középre igazítása*/
+	color:white;			/* fehér szövegszín*/
+	font-weight:bold;		/* félkövér megjelenés*/
+	}
+	
+/*Az illusztrációk megjelenésének beállítása */
+figure {
+	width:70%; 					/* szélesség beállítása */
+	max-width:800px;			/* maximális szélesség beállítása */
+	padding-top:10px;			/* belső kitöltés felül */
+	padding-right:0;			/* belső kitöltés jobb oldalon */
+	padding-bottom:10px;		/* belső kitöltés alul */
+	padding-left:10px;			/* belső kitöltés bal oldalon */
+	text-align:center;			/* szöveg középre igazítása*/
+	margin-left:auto;			/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
+	margin-right:auto;
+	margin-bottom:30px;			/* alsó margó beállítása */
+	background-color:darkred;	/* sötétszürke háttérszín beállítása*/
+	transform:rotate(-2deg);	/* elforgatás 2 fokkal*/
+	border-radius:30px;			/* szegély lekerekítése*/
+	}
+	
+/*A képek megjelenésének beállítása */
+img {
+	width:45%; 					/* szélesség beállítása */
+	height:auto;				/* magasság beállítása */
+	border:4px solid white;		/* szegély legyen vastagabb, fehér*/
+	border-radius:60px;			/* szegély lekerekítése*/
+	margin-right:10px;			/*jobb margó	*/
+			}	
+/*A videók megjelenésének beállítása */
+video {
+	width:70%; 				/* szélesség beállítása */
+	max-width:800px;		/* maximális szélesség beállítása */
+	display:block;			/* a megjelenés blokkszintű legyen. Emiatt térköz lesz alatta és felette. */
+	margin-left:auto;		/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
+	margin-right:auto;
+	}
+		
+/* Azon link tulajdonságának beállítása, amely az oldal elejére ugrik */	
+a[href="#eleje"] {
+	display:block; 		/* a megjelenés blokkszintű legyen. Emiatt térköz lesz alatta és felette. */
+	text-align:right;	/* szöveg jobbra igazítása*/
+	margin-right:30px;	/* jobb oldali margó*/
+	}
+
+/*A táblázatok megjelenésének beállítása */
+table {
+	border-collapse:collapse;	/* a szomszédos szegélyek összevonása */
+	border:3px solid black;		/* szegély beállítása*/ 
+	width:90%;					/* szélesség beállítása*/
+	max-width:800px;			/* maximális szélesség */
+    margin-left:auto;			/* bal és jobb margó 'auto' beállítása középre igazítást jelent */
+	margin-right:auto;
+	}	
+
+/*Adatcellák és fejléc cellák megjelenésének beállításai*/
+td,th {
+	border:1px solid black;		/* vékony, fekete szegély*/
+	padding:20px;				/* belső kitöltés*/ 
+	}	
+
+/* Fejléc cella beállítása */
+th {
+	background-color:darkred;   /* sötétvörös háttér*/
+	color:white;				/* fehér szövegszín */
+}
+
+/*A páratlan táblázatsorok tulajdonságai*/
+tr:nth-child(odd) {background-color:lightgray;}  /* világosszürke háttér*/
+
+/*A táblázat felirat megjelenése*/
+caption {
+	background-color:black;	/* fekete háttérszín*/
+	color:white;			/* fehér szövegszín*/
+	padding:10px;			/* belső kitöltés*/
+	}
+
+
+/* Ha a böngésző szélessége 1000 képpont alatti */
+@media screen and (max-width:1000px) {
+	
+/*A fontos osztályba tartozó bekezdés megjelenése*/
+	p.fontos {
+		float:none;				/* lebegtetés letiltása*/
+		width:75%;				/* szélesség 75% */
+		margin-top:0;			/* felső margó*/
+		margin-right:0;			/* jobb oldali margó*/
+		margin-bottom:0;		/* alsó margó*/
+		margin-left:10px;		/* bal oldali margó*/
+		transform:rotate(0);	/* ne legyen elforgatva*/
+		font-size:120%;			/* betűméret beállítása*/
+		}
+		
+	/* A dokumentumtörzs megjelenésének beállítása*/
+	body {width:90%;}           /* szélesség beállítása*/
+}
+	
