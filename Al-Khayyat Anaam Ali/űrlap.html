@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Űrlap</title>
+</head>
+<body>
+<form>
+<fieldset>
+    <legend>Ez az űrlap címe</legend>
+    <progress value "0" max="100"></progress>
+        
+        
+        <ul>
+             <li>
+                 <label for="Vezetéknév">
+                     Vezetéknév
+                 </label>
+                 <input type="text" id="Vezetéknév" placeholder="Vezetéknév"
+             </li>
+             <li>
+                  <label for="Keresztnév">
+                      Keresztnév
+                  </label>  
+                  <input type="text" id="Keresztnév" placeholder="Keresztnév"
+
+             </li> 
+             <li>
+                 <label for="Email">
+                     Email
+                 </label>  
+                 <input type="email" id="Email" placeholder="Email"
+
+
+             </li>
+             <li>
+                <label for="jelszo">
+                    jelszó
+                </label>  
+                <input type="password" id="jelszó" placeholder="jelszó"
+
+
+             
+
+             </li>
+             <li>
+                <label for="hirlevél">
+                    hírlevél
+                </label>
+                <input type="checkbox" id="hírlevél" placeholder="hírlevél"
+
+
+
+             </li>
+             <li>
+                <label for="ferfi">
+                    férfi
+                </label>
+                <input type="radio" name="gender" value="férfi" id="ferfi" placeholder="ferfi"
+
+
+
+
+             </li>
+            <li>
+                <label for="no">
+                    nő
+                </label>
+                <input type="radio" name="gender" value="nő" id="no" placeholder="nő"
+                
+
+
+
+            </li>
+            <li>
+                <label for="colors">
+                    színek
+                </label>
+                <select id="colors">
+                    <option value="red">piros</option>
+                    <option value="white">fehér</option>
+                    <option value="green">zöld</option>
+
+                </select>        
+
+            
+            </li>
+            <label for="auto">
+                autó
+            </label>
+            <select id="auto">
+                <optgroup label="német">
+                <option value="audi">audi</option> 
+                <option value="bmw">bmw</option> 
+                <option value="mercedes">mercedes</option>
+                </optgroup>
+                <optgroup label="japán">
+                    <option value="nissan">nissan</option> 
+                    <option value="honda">honda</option> 
+                    <option value="toyota">toyota</option>
+                    </optgroup>
+                    <optgroup label="olasz">
+                        <option value="ferrari">ferrari</option> 
+                        <option value="alfa romeo">alfa romeo</option> 
+                        <option value="lamborgini">lamborgini</option>
+                        </optgroup> 
+            </select>       
+
+
+
+
+
+
+        
+            </li>
+            <li>
+                <label for="instroduction">
+                    bemutatkozás   
+                </label>
+                <textarea id="instroduction" rows="4" cols="50"></textarea> 
+
+
+            </li>
+            <li>
+                <label for=cv">
+                    önéletrajz  
+                </label>
+                <input type="file" id="cv">   
+    
+
+            </li>
+            <li>
+                <button type="submit">Beküldés</button>
+            </li>
+            <li>
+                <body>Ajálod ezt a kérdőívet másoknak?</body>
+                <label for="igen">
+                    igen
+                </label>
+                <input type="checkbox" id="igen" placeholder="igen">
+
+                
+
+            </li>
+            
+        </ul>
+    
+      
+</fieldset> 
+   
+</form>    
+</body>
+</html>

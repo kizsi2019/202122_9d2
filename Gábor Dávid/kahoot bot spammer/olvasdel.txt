@@ -1,0 +1,8 @@
+Menj replit.com-ra.
+Készíts egy node.js-t.
+Másold be ami a "botaddolo.js"-ben van.
+Írd át a játék ID-t.
+Tetszés szerint adj a bot/botoknak nevet.
+Válasz egy tetszőleges bot darabszámot.
+
+>> Dávid <<

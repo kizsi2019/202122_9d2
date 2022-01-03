@@ -1,0 +1,15 @@
+import turtle
+window = turtle.Screen()
+a = turtle.Turtle()
+window.bgcolor("lightgreen")
+a.speed(0.9)
+a.penup()
+a.shape("classic")
+for c in range
+a.stamp()
+a.shape("turtle")
+a.forward(25)
+a.stamp()
+a.forward(-150)
+a.left(360/12)
+window.mainloop()
