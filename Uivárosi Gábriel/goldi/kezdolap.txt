@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 A Golden Retriever bemutatása
 Kezdõlap Típusok
 
@@ -16,4 +17,24 @@ Ha szeretnél még több kutyás fotót nézegetni, látogasd meg a Pixabay portál - Go
 
 A videón is láthatod, hogy Goldi nagyon szeret a földön hemperegni, amely miatt általában koszosan jövünk haza a sétából.
 
+=======
+A Golden Retriever bemutatása
+Kezdõlap Típusok
+
+A Golden Retriever egy kedves, barátságos kutyafajta, mely Skóciából származik.
+A fajta tudományos megnevezése: Golden Retriever - Canis lupus familiaris.
+
+Fontos! Ha gazdi szeretnél lenni, nézz utána, hogy a felelõs kutyatartással kapcsolatban milyen ajánlások és kötelezettségek vannak!
+Elõnyös tulajdonságai
+Okos, könnyen képezhetõ
+Szelíd, családbarát
+Nagyon jó vadászkutya
+Goldi, a kutyám
+A kutyám, aki egy Golden retriever. A kutyám kölyök korában.
+Fotók Goldiról
+Ha szeretnél még több kutyás fotót nézegetni, látogasd meg a Pixabay portál - Goldenek fotó oldalát!
+
+A videón is láthatod, hogy Goldi nagyon szeret a földön hemperegni, amely miatt általában koszosan jövünk haza a sétából.
+
+>>>>>>> cb175d114ff0dd5f46f86fff2d49a7ccae3709f8
 Vissza az oldal tetejére

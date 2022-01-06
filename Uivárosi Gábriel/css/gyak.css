@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{  
     background: url(../pics/bg-body.gif) repeat  fixed ;
     
@@ -6,4 +7,14 @@ body{
     font-style: bold;
     line-height: 69px;
     font-family:  Tahoma, Verdana, sans-serif;
+=======
+body{  
+    background: url(../pics/bg-body.gif) repeat  fixed ;
+    
+    color: rgb(10, 231, 247);
+    font-size: 24px;
+    font-style: bold;
+    line-height: 69px;
+    font-family:  Tahoma, Verdana, sans-serif;
+>>>>>>> cb175d114ff0dd5f46f86fff2d49a7ccae3709f8
 }
