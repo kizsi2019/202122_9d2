@@ -1,0 +1,93 @@
+body {
+	background-image: url("../static/hatter.jpeg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+body {
+ margin-top:20px;  		
+ margin-bottom:20px;	
+ margin-left:auto;		
+ margin-right:auto;	
+ font-size:120%;		
+ width:80%;				
+ font-family: Verdana, Arial, sans-serif;	
+ border:1px solid #FFDB58;
+ box-shadow:5px 5px 20px black;	
+  }
+
+ p {
+	 margin-left:20px;		
+	 margin-right:30px;		
+	 color:wheat;
+ }
+ 
+
+ul {
+	margin:0;				
+	padding:30px;			
+}
+
+
+li {
+	list-style-image:url('../kepek/mancs.png');		
+	color:white;		
+	margin-left:40px;	
+	line-height:40px;	
+	}
+
+h1 {
+	color:#726236;		
+	border-bottom:10px solid #FFDB58;	
+	background-color:black;			
+	padding:10px;						
+	margin:0;							
+		}
+h2 {
+	padding:5px;		
+	color:	#de9b35;	
+}
+a {font-style:italic;}  	
+figcaption {
+	text-align:center;		
+	color:#413a27;			
+	font-weight:bold;		
+	}
+	
+figure {
+	width:70%; 				
+	max-width:800px;			
+	padding-top:10px;			
+	padding-right:0;			
+	padding-bottom:10px;		
+	padding-left:10px;			
+	text-align:center;			
+	margin-left:auto;			
+	margin-right:auto;
+	margin-bottom:30px;			
+	background-color:#de9b35;
+	transform:rotate(-2deg);	
+	border-radius:30px;			
+	}
+img {
+	width:45%; 					
+	height:auto;				
+	border:4px solid white;		
+	border-radius:60px;			
+	margin-right:10px;			
+			}	
+video {
+	width:70%; 				
+	max-width:800px;		
+	display:block;			
+	margin-left:auto;		
+	margin-right:auto;
+	}	
+
+tr:nth-child(odd) {background-color:lightgray;}  
+@media screen and (max-width:1000px) {
+	body {width:90%;}           
+}
+	
