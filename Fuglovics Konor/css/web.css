@@ -1,0 +1,18 @@
+body {
+    background-image:url("../images.jpg");
+    border:solid gray;
+    box-shadow:5px 5px 20px black;	
+}
+h1 {
+    text-align: center;
+    color: white
+}
+p {
+    color: white
+}
+h2 {
+    color: white
+}
+figcaption {
+    color: white
+}
