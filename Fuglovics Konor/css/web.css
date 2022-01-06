@@ -1,18 +1,28 @@
 body {
     background-image:url("../images.jpg");
-    border:solid gray;
-    box-shadow:5px 5px 20px black;	
 }
 h1 {
     text-align: center;
+    font-family: Stratum2,'Sitka Text', Arial;
     color: white
 }
 p {
-    color: white
+    color: white;
+    font-family: Stratum2,'Sitka Text', Arial;
 }
 h2 {
-    color: white
+    color: white;
+    font-family: Stratum2,'Sitka Text', Arial;
 }
 figcaption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 12px;
+    background-color:blue;
+    font-size: 15px ;
+    font-family: Stratum2,'Sitka Text', Arial;
+    text-align: center;
     color: white
 }
