@@ -107,7 +107,7 @@ figure {
 	margin-bottom:30px;			/* alsó margó beállítása */
 	background-color:darkred;	/* sötétszürke háttérszín beállítása*/
 	transform:rotate(-2deg);	/* elforgatás 2 fokkal*/
-	border-radius:30px;			/* szegély lekerekítése*/
+	border-radius:60px;			/* szegély lekerekítése*/
 	}
 	
 /*A képek megjelenésének beállítása */
