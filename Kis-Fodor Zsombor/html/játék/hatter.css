@@ -1,12 +1,34 @@
 body
 {
-    background: url(tahood.jpg) fixed;
+    background: url(fh5.jpg) fixed;
     background-size: 100%;
 
     font-size: 40px;
     font-style: bold;
     line-height: 34px;
-    color: rgb(0, 0, 0);
-
-    
+    color: rgb(214, 214, 214);
+    text-shadow:5px 0px rgb(0, 0, 0);
 }
+
+h1 {
+	padding:10px;		
+	color:rgb(255, 0, 0);		
+	text-shadow:5px 0px rgb(255, 255, 255);
+}
+
+h3 {
+	padding:10px;		
+	color:rgb(255, 230, 0);		
+	text-shadow:1px 1px gray;
+}
+
+img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+a[href="#eleje"] {
+    margin-top: 700px;
+	color: rgb(255, 151, 151);
+    text-shadow:5px 0px rgb(0, 0, 0);
+	}
