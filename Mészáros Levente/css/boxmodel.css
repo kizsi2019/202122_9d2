@@ -1,0 +1,22 @@
+body {
+    background-image: url(../pics/bg-body.gif);
+    color: white;
+    margin: 0;
+}
+
+div {
+    width: 90%;
+    padding: 20px 0px 20px 0px;
+    border-bottom: 10px solid green;
+    border-left: 10px dotted red;
+    border-right: 10px dashed white;
+    border-top: 10px ridge blue;
+    margin: auto;
+    
+
+}
+
+
+*{ box-sizing: border-box;
+
+    }
