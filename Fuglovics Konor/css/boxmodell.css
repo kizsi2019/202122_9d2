@@ -1,0 +1,8 @@
+body {
+    background-image: url(../pics/bg-body.gif);
+    color: white
+}
+div {
+    padding: 20px;
+    width: 400px
+}
