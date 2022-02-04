@@ -1,8 +1,17 @@
+* {
+    box-sizing: border-box
+}
 body {
     background-image: url(../pics/bg-body.gif);
-    color: white
+    color: white;
+    margin: 0
 }
 div {
-    padding: 20px;
-    width: 400px
+    padding: 20px 0 20px 0;
+    width: 90%;
+    margin: 20px auto;
+}
+div .header-image {
+    height: 200px;
+    background-image: url(../pics/image1.jpg)
 }
