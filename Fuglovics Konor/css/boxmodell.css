@@ -15,3 +15,10 @@ div .header-image {
     height: 200px;
     background-image: url(../pics/image1.jpg)
 }
+div .header-image2 {
+    height: 200px;
+    background-image: url(../pics/image2.jpg)
+}
+.box-content h2 {
+    margin: 0;
+}
