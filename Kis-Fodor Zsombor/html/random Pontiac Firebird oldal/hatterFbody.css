@@ -1,0 +1,13 @@
+body
+{
+    background: url(carplatform.png) fixed;
+    background-size: 100%;
+    background-position: 0%;
+
+    font-size: 40px;
+    font-style: bold;
+    line-height: 34px;
+    color: rgb(0, 0, 0);
+    text-shadow:5px 0px rgb(112, 112, 112);
+    
+}

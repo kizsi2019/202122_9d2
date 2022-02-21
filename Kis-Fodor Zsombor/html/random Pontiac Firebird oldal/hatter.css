@@ -1,12 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
 body
 {
-    background: url(tahood.jpg) fixed;
+    background: url(hatter.png) fixed;
     background-size: 100%;
+    background-position: 0% ;
 
+    font-family: 'Oswald', sans-serif;
     font-size: 40px;
     font-style: bold;
     line-height: 34px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow:5px 0px rgb(0, 0, 0);
 
-    
+}
+
+a {
+    color: white;
+}
+
+li {
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+.firstgen {
+    color: rgb(255, 0, 55);
+}
+
+.secondgen {
+    color: gold;
+}
+
+.pictures {
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
