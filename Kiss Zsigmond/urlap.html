@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="hu">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,59 +9,62 @@
 </head>
 
 <body>
+
     <form>
         <fieldset>
             <legend>Ez az űrlap címe</legend>
-            <progress value="50" max="100"></progress>
+            <progress value="33" max="100"></progress>
+
             <ul>
                 <li>
                     <label for="vezeteknev">
-                        Vezetéknév
-                    </label>
-                    <input type="text" id="vezeteknev" placeholder="Vezetéknév">
+                Vezetéknév
+            </label>
+                    <input type="text" id="vezeteknev" placeholder="Vezetéknév" required>
                 </li>
+
                 <li>
                     <label for="keresztnev">
-                        Keresztnév
-                    </label>
-                    <input type="text" id="keresztnev" placeholder="Keresztnév">
-
+                Keresztnév
+            </label>
+                    <input type="text" id="keresztnev" placeholder="Keresztnév" required>
                 </li>
+
                 <li>
                     <label for="email">
-                        Email-cím
-                    </label>
-                    <input type="email" id="email" placeholder="Email-cím">
-
+                Email
+            </label>
+                    <input type="email" id="email" placeholder="Email cím" required>
                 </li>
+
                 <li>
                     <label for="password">
-                        Jelszó
-                    </label>
-                    <input type="password" id="password" placeholder="Jelszó">
-
+                Jelszó
+            </label>
+                    <input type="password" id="password" placeholder="Jelszó" required>
                 </li>
+
                 <li>
                     <label for="hirlevel">
-                        Hírlevél
-                    </label>
+                Hírlevél
+            </label>
                     <input type="checkbox" id="hirlevel" placeholder="Hírlevél">
-
                 </li>
+
                 <li>
                     <label for="ferfi">
-                        Férfi
-                    </label>
+                Férfi
+            </label>
                     <input type="radio" name="gender" value="ferfi" id="ferfi">
-
                 </li>
+
                 <li>
                     <label for="no">
-                        Nő
-                    </label>
+                Nő
+            </label>
                     <input type="radio" name="gender" value="no" id="no">
-
                 </li>
+
                 <li>
                     <label for="colors">
                         Színek
@@ -71,50 +74,48 @@
                         <option value="white">Fehér</option>
                         <option value="green">Zöld</option>
                     </select>
-
                 </li>
+
                 <li>
                     <label for="auto">
-                        Autó
+                        Autók
                     </label>
                     <select id="auto">
                         <optgroup label="Német">
-                        <option value="audi">Audi</option>
-                        <option value="bmw">BMW</option> 
-                        <option value="mercedes">Mercédesz</option>   
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                            <option value="mercedes">Mercedes</option>
                         </optgroup>
-                        <optgroup label="Olasz">
-                            <option value="fiat">Fiat</option>
-                            <option value="alfa">Alfa Romeó</option>   
+                        <optgroup label="Japán">
+                            <option value="mitsubishi">Mitsubishi</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="mazda">Mazda</option>
                         </optgroup>
                     </select>
-                    <li>
-                        <label for="introduction">
-                            Bemutatkozás
-                        </label>
-                        <textarea id="introduction" rows="4" cols="50">Ide írjál pár sort magadról!</textarea>
-
-                    </li>
-                    <li>
-                        <label for="cv">
-                            Önéletrajz
-                        </label>
-                        <input type="file" id="cv">
-
-                    </li>
-                    <li>
-                        <button type="submit">Elküldöm az adatokat"</button>
-                    </li>
-                    <li>
-                        <input type="submit" value="Elküldöm az adatokat">
-                    </li>
-
                 </li>
 
+                <li>
+                    <label for="intruduction">
+                        Bemutatkozás
+                    </label>
+                    <textarea id="intrudiuction" rows="4" cols="50">Ide írj magadról pár sort!</textarea>
+                </li>
+
+                <li>
+                    <label for="cv">
+                        Önéletrajz
+                    </label>
+                    <input type="file" id="cv">
+                </li>
+                <li>
+                    <button type="submit">Elküldöm az adatokat</button>
+                </li>
+                <progress value="33" max="100"></progress>
+
+
             </ul>
-
-
         </fieldset>
+
 
     </form>
 

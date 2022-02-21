@@ -15,11 +15,13 @@ div {
 }
 div .header-image {
     height: 200px;
-    background-image: url(../pics/image1.jpg)
+    background-image: url(../pics/image1.jpg);
+    box-shadow: 0 0 20px #00e1e6
 }
 div .header-image2 {
     height: 200px;
-    background-image: url(../pics/image2.jpg)
+    background-image: url(../pics/image2.jpg);
+    box-shadow: 0 0 20px #005023
 }
 .box-content h2 {
     margin: 0;
@@ -30,7 +32,10 @@ div .header-image2 {
     color: #738e72
 }
 .details a {
-    display: block;
+    display: inline-block;
     background-color: #feb127;
-    color: black
-}
+    color: black;
+    margin: 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: 0 0 5px #bbabab
