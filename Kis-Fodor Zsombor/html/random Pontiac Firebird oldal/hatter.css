@@ -2,6 +2,7 @@
 
 body
 {
+    
     background: url(hatter.png) fixed;
     background-size: 100%;
     background-position: 0% ;
@@ -12,11 +13,13 @@ body
     line-height: 34px;
     color: rgb(255, 255, 255);
     text-shadow:5px 0px rgb(0, 0, 0);
+    margin-right: 200px;
 
 }
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 li {
@@ -39,7 +42,11 @@ h3 {
     color: gold;
 }
 
+.thirdgen {
+    color: rgb(77, 29, 77); 
+}
+
 .pictures {
     margin-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
