@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../pics/bg-body.gif");
+    color: white;
+    margin: 0;
+}
+
+div {
+    width: 400px;
+    padding: 20px 0 20px 0;
+    margin: 20px 10px;
+    border-bottom: 10px solid green;
+    border-left: 10px dotted red;
+    border-right: 10px dashed white;
+    border-top: 10 ridge blue;
+}

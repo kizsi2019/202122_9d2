@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+* {
+    box-sizing: border-box
+}
+body {
+    background-image: url(../pics/bg-body.gif);
+    color: #732d42;
+    margin: 0;
+    font-family: 'Oswald', Symbol
+}
+div {
+    padding: 20px 0 20px 0;
+    width: 90%;
+    margin: 20px auto;
+}
+div .header-image {
+    height: 200px;
+    background-image: url(../pics/image1.jpg);
+    box-shadow: 0 0 20px #00e1e6
+}
+div .header-image2 {
+    height: 200px;
+    background-image: url(../pics/image2.jpg);
+    box-shadow: 0 0 20px #005023
+}
+.box-content h2 {
+    margin: 0;
+    color: #4382b4
+}
+.box-content2 h2 {
+    margin: 0;
+    color: #738e72
+}
+.details a {
+    display: inline-block;
+    background-color: #feb127;
+    color: black;
+    margin: 0;
+    padding: 5px 10px;
+    text-decoration: none;
+    box-shadow: 0 0 5px #bbabab
