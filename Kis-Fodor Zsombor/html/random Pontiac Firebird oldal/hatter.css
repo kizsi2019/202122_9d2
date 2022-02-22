@@ -14,11 +14,17 @@ body
     color: rgb(255, 255, 255);
     text-shadow:5px 0px rgb(0, 0, 0);
     margin-right: 200px;
+    margin-left: 20px;
 
 }
 
+div {
+    box-shadow: 0 0 30px rgb(116, 116, 116);
+    box-sizing:content-box;
+}
+
 a {
-    color: white;
+    color: rgb(198, 221, 255);
     text-decoration: none;
 }
 
@@ -27,11 +33,17 @@ li {
 }
 
 h1 {
+    padding-top: 30px;
     font-size: 100px;
 }
 
 h3 {
     font-size: 60px;
+}
+
+.back {
+    color: darkred;
+    font-size: 70px;
 }
 
 .firstgen {
@@ -44,6 +56,10 @@ h3 {
 
 .thirdgen {
     color: rgb(77, 29, 77); 
+}
+
+.fourthgen {
+    color: dodgerblue;
 }
 
 .pictures {
