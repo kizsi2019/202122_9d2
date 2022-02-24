@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url("../pics/back.png");
+    background-image: url("../pics/back2.png");
+    background-repeat: repeat;
     color: white;
     margin: 0;
     font-family: 'Oswald', sans-serif;
@@ -17,7 +18,13 @@ body {
 }
 
 .box2 {
-    width: 80%;
+    width: 55%;
+    padding: 20px 0 20px 0;
+    margin: 20px auto;
+}
+
+.box3 {
+    width: 55%;
     padding: 20px 0 20px 0;
     margin: 20px auto;
 }
@@ -29,7 +36,12 @@ body {
 
 .box2 .header-image {
     height: 330px;
-    background-image: url("../pics/batman.png")
+    background-image: url("../pics/t1.jpg")
+}
+
+.box3 .header-image {
+    height: 330px;
+    background-image: url("../pics/f1.jpeg")
 }
 
 .box .box-content {
@@ -42,18 +54,28 @@ body {
     color: white
 }
 
+.box3 .box-content {
+    padding: 20px;
+    color: white
+}
+
 .box .box-content h2 {
     margin: 0;
-    color: #aa0202
-}
+    color: #a50707
+}    
 
 .box2 .box-content h2 {
     margin: 0;
     color: #a50707
 }
 
+.box3 .box-content h2 {
+    margin: 0;
+    color: #a50707
+}
+
 .details a {
     display: block;
-    background-color: #272bfe;
+    background-color: #1619ad;
     color: black
 }
