@@ -1,0 +1,25 @@
+
+ .box { 
+    width: 90%;
+    padding: 20px 0 20px 0;
+    margin: 20px auto;
+    border-bottom: 10px solid green;
+    border-left: 10px dotted red;
+    border-right: 10px dashed white;
+    border-top: 10px ridge blue;
+
+}
+
+div{width: 90%;
+padding: 20px 0px 20px 0px;
+margin:  20px auto;}
+
+*{ box-sizing:  border-box;}
+
+.box-content h2 { margin-top: 0;}
+
+div .header-image{
+   height: 200px;
+   background-image: url(./képek/image1.jpg);
+
+}

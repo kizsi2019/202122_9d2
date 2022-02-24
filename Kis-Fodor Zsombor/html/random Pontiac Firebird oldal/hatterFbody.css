@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body
+{
+    
+    background-color: black;
+
+    font-size: 40px;
+    font-style: bold;
+    line-height: 34px;
+    color: rgb(253, 253, 253);
+    text-shadow:5px 0px rgb(112, 112, 112);
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
