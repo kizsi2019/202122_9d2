@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kedvenc Játék</title>
+        <meta name="description" content="Kedvenc játék">
+        <script defer src="tailwind.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
+    </head>
+    <body>
+        <nav class="bg-slate-900 sticky top-0 z-50 shadow-2xl" x-data="{ navOpen: false }">
+            <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+                <div class="relative flex items-center justify-between h-16">
+                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                        <button type="button" @click="navOpen = !navOpen" class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                            <span class="sr-only"></span>
+                            <svg class="h-6 w-6" :class="{ 'hidden' : navOpen }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
+                            </svg>
+                            <svg class="h-6 w-6" :class="{ 'hidden' : !navOpen }" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                        <div class="flex-shrink-0 flex items-center">
+                            <h4 class="text-orange-400">Counter-Strike: Global Offensive</h4>
+                        </div>
+                    <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                        <div class="ml-3 relative">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <main class="flex-1 overflow-x-hidden overflow-y-auto dark:bg-slate-800">
+            <div class="video-container w-full items-center">
+                <div class="container max-w-screen-lg h-auto mx-auto caption flex flex-col items-center text-center text-white w-full">
+                    <div class="my-16 w-3/4 flex flex-col items-center">
+                        <img class="w-96" src="https://seeklogo.com/images/C/counter-strike-global-offensive-logo-B877EB5D33-seeklogo.com.png" alt="csgo logo">
+                        <h4 class="text-xl">Egy akcíódus csapatra épülő, multiplayer PVP játék</h4>
+                    </div>
+                    <div class="flex flex-col lg:flex-row items-center justify-between mb-16">
+                        <div class="w-72 h-96 sm:w-96 sm:h-96 m-4 bg-slate-900 bg-opacity-70 rounded-lg shadow hover:shadow-xl">
+                            <a href="#">
+                                <img class="p-8 h-full rounded-t-lg w-full" src="https://toppng.com/uploads/preview/file-history-csgo-terrorist-character-115629723337si6ps5dtd.jpeg" alt="Terrorista"/>
+                            </a>
+                        </div>
+                        <div class="w-72 h-96 sm:w-96 sm:h-96 m-4 bg-slate-900 bg-opacity-70 rounded-lg shadow hover:shadow-xl">
+                            <a href="#">
+                                <img class="p-8 h-full rounded-t-lg w-full" src="https://preview.redd.it/8eoq6x73wva31.png?auto=webp&s=3fac4ef7d5db443863c5141642942464bc3951b1" alt="terrorelharito"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mx-auto max-w-screen-2xl flex flex-col justify-center px-6 py-8">
+                <h1 class="text-center text-4xl dark:text-white my-8">Játék menete</h1>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="col-span-3 md:col-span-1 transition ease-in-out hover:scale-105 duration-300 relative flex flex-col items-center p-6 dark:bg-slate-900 rounded shadow-xl">
+                        <div class="rounded-full flex items-center justify-center bg-indigo-500 w-14 h-14 mb-2 text-white">
+                        </div>
+
+                        <p class="text-white text-xl font-bold leading-snug mb-1 text-center">Két csapat</p>
+                        <p class="text-slate-300 text-center">A játékban két csapat van, egyik a Terrorista másik a Terrorelhárító.</p>
+                    </div>
+
+                    <div class="col-span-3 md:col-span-1 transition ease-in-out hover:scale-105 duration-300 relative flex flex-col items-center p-6 dark:bg-slate-900 rounded shadow-xl">
+                        <div class="rounded-full flex items-center justify-center bg-indigo-500 w-14 h-14 mb-2 text-white">
+                        </div>
+
+                        <p class="text-white text-xl font-bold leading-snug mb-1 text-center">Terroristák</p>
+                        <p class="text-slate-300 text-center">A terroristák feladat, hogy a két bombahely egyikén élesítsék a bombát és megvédjék azt.</p>
+                    </div>
+
+                    <div class="col-span-3 md:col-span-1 transition ease-in-out hover:scale-105 duration-300 relative flex flex-col items-center p-6 dark:bg-slate-900 rounded shadow-xl">
+                        <div class="rounded-full flex items-center justify-center bg-indigo-500 w-14 h-14 mb-2 text-white">
+                        </div>
+
+                        <p class="text-white text-xl font-bold leading-snug mb-1 text-center">Terrorelhárító</p>
+                        <p class="text-slate-300 text-center">A terrorelhárítók feladata, hogy az élesített bombát hatástalanítsák.</p>
+                    </div>
+
+                    <div class="col-span-3 md:col-span-1 transition ease-in-out hover:scale-105 duration-300 relative flex flex-col items-center p-6 dark:bg-slate-900 rounded shadow-xl">
+                        <div class="rounded-full flex items-center justify-center bg-indigo-500 w-14 h-14 mb-2 text-white">
+                        </div>
+                        <p class="text-white text-xl font-bold leading-snug mb-1 text-center">MM játékmód</p>
+                        <p class="text-slate-300 text-center">Az MM játékmód egy ranked játékmód, ahol 5 fős csapat harcol egy másik 5 fős csapat ellen. Amelyi csapat nyer, az nagyobb rangot kap.</p>
+                    </div>
+                    <div class="col-span-3 md:col-span-1 transition ease-in-out hover:scale-105 duration-300 relative flex flex-col items-center p-6 dark:bg-slate-900 rounded shadow-xl">
+                        <div class="rounded-full flex items-center justify-center bg-indigo-500 w-14 h-14 mb-2 text-white">
+                        </div>
+                        <p class="text-white text-xl font-bold leading-snug mb-1 text-center">Játékbeli tárgyak</p>
+                        <p class="text-slate-300 text-center">A játékban igazi pénzért vásárolható ún. skinek, amelyekkel a fegyvereket lehet "feldíszíteni".</p>
+                    </div>
+
+                    <div class="col-span-3 md:col-span-1 transition ease-in-out hover:scale-105 duration-300 relative flex flex-col items-center p-6 dark:bg-slate-900 rounded shadow-xl">
+                        <div class="rounded-full flex items-center justify-center bg-indigo-500 w-14 h-14 mb-2 text-white">
+                        </div>
+                        <p class="text-white text-xl font-bold leading-snug mb-1 text-center">Deathmatch</p>
+                        <p class="text-slate-300 text-center">A Deathmatch játékmód egy "free for all" játékmód, ahol mindenki mindenki ellen van. Az nyer aki a legtöbbet öli.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-slate-900 p-12 flex flex-col justify-center items-center text-center text-white mt-16">
+                <h1 class="text-5xl sm:text-6xl">Letöltés</h1>
+                <hr class="w-1/3 border my-3 border-slate-300">
+                <h2 class="text-3xl">A játék a Steam oldalán megvásárolható vagy kipróbálható.</h2>
+
+                <a href="https://steampowered.com" class="relative flex justify-center mt-4 py-2 px-4 border border-transparent text-sm font-medium rounded-full text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 transition ease-in-out hover:scale-110 duration-300">
+                    <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+                    </svg>
+                    Megveszem
+                </a>
+            </div>
+                </div>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer class="text-center bg-slate-900 text-white">
+            <div class="mx-6 py-10 text-center md:text-left">
+                <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div>
+                <p class="text-center">
+                   2022 © Dunai Krisztián
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

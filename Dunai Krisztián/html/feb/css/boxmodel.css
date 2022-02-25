@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../pics/bg-body.gif");
+    color: white;
+    margin: 0;
+}
+
+.box {
+    width: 90%;
+    padding: 20px 0 20px 0;
+    margin: 20px auto;
+}
+
+.box .header-image {
+    height: 200px;
+    background-image: url("../pics/image1.jpg")
+}
+
+.box .box-content {
+    padding: 20px;
+}
+
+.box .box-content h2 {
+    margin: 0;
+}
+
+.box2 .header-image {
+    height: 200px;
+    background-image: url("../pics/image2.jpg")
+}
+
+.box2 .box-content {
+    padding: 20px;
+}
+
+.box2 .box-content h2 {
+    margin: 0;
+}
