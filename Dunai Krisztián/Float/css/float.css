@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+margin: 0;
+}
+
+body{
+margin: 0;
+background: url('../menu_pics/bg-body.jpg') fixed;
+font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background: url('../menu_pics/bg-header.jpg');
+    color: white;
+    font-size: 80px;
+    font-weight: 700;
+    padding: 80px 60px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .8);
+    }
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
