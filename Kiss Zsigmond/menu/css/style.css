@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+body {
+	margin: 0;
+	background: url('../pics/bg-body.jpg') fixed;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif
+}
+* {
+	box-sizing: border-box
+}
+header {
+	background: url('../pics/bg-header.jpg');
+	color: white;
+	font-size: 80px;
+	font-weight: 700;
+	padding: 80px 60px;
+	text-shadow: 0 0 20px rgba(0,0,0,.8)
+}
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto
+}
+.content {
+	background: #333030
+}
+
+/*
+clearfix hack:
+https://www.w3schools.com/howto/howto_css_clearfix.asp
+*/
+.content::after,
+footer::after {
+	content: "";
+	clear: both;
+	display: table
+}
+nav {
+	width: 25%;
+	float: left
+}
+nav ul {
+	margin: 0;
+	padding: 30px;
+	list-style: none
+}
+nav ul li {
+	border-bottom: 1px dashed rgba(255,255,255,2)
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 15px 0;
+	display: block
+}
+nav a:hover {
+	padding: 15px;
+	background: rgba(255,255,255,.1)
+}
+
+main {
+	width: 75%;
+	background: white;
+	float: left;
+	padding: 30px
+}
+main p {
+	line-height: 23px
+}
+.float-left {
+	float: left;
+	margin: 0 20px 20px 0
+}
+.float-right {
+	float: right;
+	margin: 0 0 20px 20px
+}
+
+
+footer {
+	padding: 20px 0
+}
+footer a {
+	color: black
+}
+footer .left {
+	float: left
+}
+footer .right {
+	float: right
+}
+
+
+
+h1 {
+	margin-top: 0
+}
+h1 span {
+	font-size: 50px;
+	background: #3d8a12;
+	color: white;
+	-webkit-box-decoration-break: clone;
+	-o-box-decoration-break: clone;
+	box-decoration-break: clone;
+	border-left: 10px solid #3d8a12;
+	border-right: 10px solid #3d8a12;
+	border-bottom: 7px solid #3d8a12;
+	line-height: 75px
+}
