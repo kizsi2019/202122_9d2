@@ -1,18 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-image: url("../pics/back2.png");
+    font-family: 'Permanent Marker', cursive;
+    background-image: url("pics/bg-body.gif");
     background-repeat: repeat;
     color: white;
     margin: 0;
-    font-family: 'Oswald', sans-serif;
 }
 
 .box {
-    width: 55%;
+    
+    width: 50%;
     padding: 20px 0 20px 0;
     margin: 20px auto;
 }
@@ -24,24 +26,24 @@ body {
 }
 
 .box3 {
-    width: 55%;
+    width: 42%;
     padding: 20px 0 20px 0;
     margin: 20px auto;
 }
 
 .box .header-image {
     height: 400px;
-    background-image: url("../pics/banner2.jpg")
+    background-image: url("pics/bluestory.jpg")
 }
 
 .box2 .header-image {
     height: 330px;
-    background-image: url("../pics/t1.jpg")
+    background-image: url("pics/lcdp.jpg")
 }
 
 .box3 .header-image {
     height: 330px;
-    background-image: url("../pics/f1.jpeg")
+    background-image: url("pics/pony.jpg")
 }
 
 .box .box-content {
@@ -61,21 +63,33 @@ body {
 
 .box .box-content h2 {
     margin: 0;
-    color: #a50707
+    color: #0087f7
 }    
 
 .box2 .box-content h2 {
     margin: 0;
-    color: #a50707
+    color: #ff0000
 }
 
 .box3 .box-content h2 {
     margin: 0;
-    color: #a50707
+    color: #ff00ff
 }
 
-.details a {
+.infok a {
     display: block;
-    background-color: #1619ad;
-    color: black
+    background-color: #0087f7;
+    color: black;
+}
+
+.infok2 a {
+    display: block;
+    background-color: #ff0000;
+    color: black;
+}
+
+.infok3 a {
+    display: block;
+    background-color: #ff00ff;
+    color: black;
 }

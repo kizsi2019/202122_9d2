@@ -2,6 +2,7 @@
 
 body
 {
+    
     background: url(hatter.png) fixed;
     background-size: 100%;
     background-position: 0% ;
@@ -12,11 +13,19 @@ body
     line-height: 34px;
     color: rgb(255, 255, 255);
     text-shadow:5px 0px rgb(0, 0, 0);
+    margin-right: 200px;
+    margin-left: 20px;
 
 }
 
+div {
+    box-shadow: 0 0 30px rgb(116, 116, 116);
+    box-sizing:content-box;
+}
+
 a {
-    color: white;
+    color: rgb(198, 221, 255);
+    text-decoration: none;
 }
 
 li {
@@ -24,6 +33,7 @@ li {
 }
 
 h1 {
+    padding-top: 30px;
     font-size: 100px;
 }
 
@@ -31,15 +41,28 @@ h3 {
     font-size: 60px;
 }
 
+.back {
+    color: darkred;
+    font-size: 70px;
+}
+
 .firstgen {
-    color: rgb(255, 0, 55);
+    color: rgb(248, 23, 60);
 }
 
 .secondgen {
     color: gold;
 }
 
+.thirdgen {
+    color: rgb(77, 29, 77); 
+}
+
+.fourthgen {
+    color: rgb(136, 136, 136);
+}
+
 .pictures {
     margin-top: 50px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
