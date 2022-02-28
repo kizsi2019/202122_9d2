@@ -20,3 +20,20 @@ header {
     max-width: 1000px;
     margin: 0 auto
 }
+.content {
+    background-color: #333030
+}
+.content::after {
+    content: "";
+    clear: both;
+    display: table
+}
+nav {
+    width: 25%;
+    float: left
+}
+main {
+    width: 75%;
+    background-color: white;
+    float: right
+}
