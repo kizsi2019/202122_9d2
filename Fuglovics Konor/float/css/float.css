@@ -32,8 +32,33 @@ nav {
     width: 25%;
     float: left
 }
+nav ul {
+    margin: 0;
+    padding: 30px 0;
+    list-style: none
+}
+nav ul li {
+    border-bottom: 1px dashed rgba(255,255,255,0.2)
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block
+}
+nav a:hover {
+    padding: 15px;
+    background: rgba(255,255,255,0.1)
+}
 main {
     width: 75%;
     background-color: white;
+    float: right;
+    padding: 30px
+}
+.float-right {
     float: right
+}
+.float-left {
+    float: left
 }
