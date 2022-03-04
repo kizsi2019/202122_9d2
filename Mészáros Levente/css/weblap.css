@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'poppins';
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    height:100px;
+    background-color: red;
+    position: fixed;
+
+}
+
+.logo{
+    float: left;
+    text-align: left;
+    line-height: 100px;
+    width: 30%;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'pacifico';
+    color: white;
+    letter-spacing: 4px;
+
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'poppins';
+    letter-spacing: 4px;
+    font-size: 30px;
+    color: white;
+    padding: 36px 40px;
+}
+
+nav a:hover{
+    background: white;
+    color: black;
+
+}
+
+.banner-area{
+    background-image: url("../pics/image4.jpg");
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 600px;
+    width: 100%;
+    position: fixed;
+}
+
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.content-area{
+    width: 100%;
+    height: 800px;
+    position:relative;
+    background: white;
+    top: 500px;
+}
+
+.content-area p{
+    padding: 2% 0;
+    line-height:35px;
+    text-align: justify;
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+
+.content-area h2{
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h2{
+    font-family: 'Shizuru', cursive;
+}
+
+
+
+
