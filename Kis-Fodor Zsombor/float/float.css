@@ -53,6 +53,11 @@ main {
     padding: 30px;
 }
 
+main p {
+    line-height: 23px;
+    margin: 0 20px 20px 0;
+}
+
 .wrapper {
     max-width: 1000px;
     margin: 0 auto;
@@ -70,8 +75,25 @@ main {
 
 .float-right {
     float: right;
+    margin: 0 0 20px 20px;
 }
 
 .float-left {
     float: left;
+    margin: 0 20px 20px 0;
+}
+
+footer .left {
+    float: left;
+}
+
+footer .right {
+    float: right;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+    background: #3d8a12;
 }
