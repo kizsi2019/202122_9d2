@@ -66,3 +66,13 @@ h3 {
     margin-top: 50px;
     margin-bottom: 12px;
 }
+
+.gens:hover {
+    padding-left: 15px;
+    color: rgb(32, 109, 224);
+}
+
+.back:hover {
+    padding-left: 15px;
+    color: red;
+}
