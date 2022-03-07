@@ -23,7 +23,7 @@ header {
 .content {
     background-color: #333030
 }
-.content::after {
+.content::after footer::after {
     content: "";
     clear: both;
     display: table
@@ -56,9 +56,21 @@ main {
     float: right;
     padding: 30px
 }
+main p {
+    line-height: 23px
+
+}
 .float-right {
-    float: right
+    float: right;
+    margin: 0 0 20px 20px
 }
 .float-left {
+    float: left;
+    margin: 0 20px 20px 0
+}
+.left {
     float: left
+}
+.right {
+    float: right
 }
