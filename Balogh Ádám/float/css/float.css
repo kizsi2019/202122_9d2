@@ -70,6 +70,10 @@ main {
     padding: 30px;
 }
 
+main p{
+    line-height: 23px;
+}
+
 .float-right{
     float: right;
 }
@@ -78,5 +82,27 @@ main {
     float: left;
 }
 
+.right {
+    float: right;
+    margin: 0 20px 20px 0;
+}
+
+.left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.content::after footer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    color: white;
+    background: #3d8a12;
+}
 
 
