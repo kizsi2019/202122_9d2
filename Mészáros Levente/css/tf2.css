@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    float:left;
+    font-family: 'TF2 Build', 'ROG Fonts V1.6', 'Times New Roman';
+    color: #FFaa00;
+    padding-top: 50px;
+}
+
+body {
+    background-color: white;
+}
+.headerpic{
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 40px 10px 10px 10px;
+    align-items: left;
+}
+
+.wrapper{
+    background-color: darkslategrey;
+    width: 100%;
+    height:200px;
+}
+
