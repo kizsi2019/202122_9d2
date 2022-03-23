@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 body {
     margin: 0;
-    background: url('../pics/bg-body.jpg') fixed;
+    background: url('../pics/back.png') fixed;
     background-size: cover;
     font-family: 'Raleway', sans-serif
 
@@ -22,13 +22,13 @@ body {
            }
 
            nav{
-            background: rgba(255, 255, 255, 0.600);
+            background: white;
            }
            
            nav a{
             color: rgb(0, 0, 0);
             text-decoration: none;
-            padding: 5px;
+            padding: 10px;
             display: block; 
            }
            
@@ -50,10 +50,17 @@ body {
             float: left;
         }
         main{
-            background: gray;
+            background: white;
             padding: 40px;
         }
         main p{
-            line-height: 1.5;
+            line-height: 2;
         }
         
+        p {
+            font-size: 25px;
+        }
+
+        h2 {
+            font-size: 30px;
+        }
