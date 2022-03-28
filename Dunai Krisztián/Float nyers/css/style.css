@@ -159,3 +159,8 @@ main h1 {
     border-radius: 3px;
     cursor: pointer;
 }
+
+.cookie-accept button:hover {
+    background-color: red;
+    color: wheat;
+}
