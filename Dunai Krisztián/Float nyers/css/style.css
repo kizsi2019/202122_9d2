@@ -12,51 +12,150 @@ body {
 
 .wrapper {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 80px auto;
 }
 
-header{
+
+/*
+a header poziciója relatív lesz, hogy a benne lévő menüt
+tudjuk abszolút pozicionálni
+*/
+
+header {
     background: url('../pics/bg-header.jpg') no-repeat;
     height: 360px;
-
-}  
-
-nav{
-    background: rgba(150, 0, 0, 0.8);
+    position: relative
 }
 
-nav a{
+nav {
+    background: rgba(190, 0, 0, .8);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+nav::after {
+    content: '';
+    clear: both;
+    display: table
+}
+
+nav a {
     color: white;
     text-decoration: none;
     padding: 20px;
-    display: block;
+    display: block
 }
 
-nav a:hover{
-    background: rgba(0, 0, 0, .8);
+nav a:hover {
+    background: rgba(0, 0, 0, .8)
 }
 
-nav::after{
-    content: '';
-    clear: both;
-    display: table;
-}
-
-nav ul{
+nav ul {
     list-style: none;
-    padding: 0; 
-    margin: 0;
+    padding: 0;
+    margin: 0
 }
 
-nav ul li{
-    float: left;
+nav>ul>li {
+    float: left
 }
 
-main{
+
+/*
+azt a menüpontot amihez tartozik almenü,
+relatív pozícióval kell megadnunk
+*/
+
+nav .has-submenu {
+    position: relative
+}
+
+
+/*
+ha van almenüje és föléhúzzuk az egereket,
+akkor a .submenu-t megjelenítjük
+*/
+
+nav .has-submenu:hover .submenu {
+    display: block
+}
+
+
+/*
+az ::after szelektorral nyilat teszünk a menüpont neve mögé,
+ha van neki almenüje
+*/
+
+nav .has-submenu::after {
+    content: '🢓';
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 10px
+}
+
+
+/*
+a nyíl miatt a jobb oldali padding-et feljebb toljuk
+*/
+
+nav .has-submenu>a {
+    padding-right: 35px
+}
+
+
+/*
+az almenüt abszolút pozicionáljuk
+*/
+
+nav .submenu {
+    position: absolute;
+    width: 220px;
+    display: none
+}
+
+nav .submenu a {
+    background: rgba(190, 0, 0, 1);
+    padding: 10px 20px
+}
+
+nav .submenu a:hover {
+    background: black
+}
+
+main {
     background: white;
-    padding: 40px;
+    padding: 40px
 }
 
-main p{
-    line-height: 1.5;
+main p {
+    line-height: 1.5
+}
+
+main h1 {
+    margin-top: 0
+}
+
+
+.cookie-accept {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.cookie-accept button {
+    background: yellow;
+    color: black;
+    border: 0;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
 }
