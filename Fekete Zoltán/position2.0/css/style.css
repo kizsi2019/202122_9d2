@@ -138,13 +138,12 @@ main h1 {
     margin-top: 0
 }
 
-
-.cookie-accept {
+.cookie-accept{
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
     text-align: center;
@@ -161,6 +160,6 @@ main h1 {
 }
 
 .cookie-accept button:hover {
-    background-color: red;
-    color: wheat;
+    background: red;
+    color: white;
 }

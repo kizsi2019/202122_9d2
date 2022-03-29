@@ -46,6 +46,11 @@ h3 {
     font-size: 70px;
 }
 
+.menusuwu {
+    color: purple;
+    font-size: 70px;
+}
+
 .firstgen {
     color: rgb(248, 23, 60);
 }
@@ -75,4 +80,9 @@ h3 {
 .back:hover {
     padding-left: 15px;
     color: red;
+}
+
+.menusuwu:hover {
+    padding-left: 15px;
+    color: magenta;
 }

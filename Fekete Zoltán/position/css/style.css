@@ -9,3 +9,67 @@ body {
 * {
     box-sizing: border-box
 }
+.wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+}
+header {
+    background: url(../pics/bg-header.jpg) no-repeat;
+    height: 360px;
+}
+nav{
+    background: rgba(190, 0, 0, 0.8);
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+}
+main{
+    background: white;
+    padding: 40px;
+}
+main p{
+    line-height: 1.5;
+}
+nav .has-submenu{
+    position: relative;
+}
+nav .has-submenu:hover .submenu{
+    display: block;
+}
+nav .has-submenu::after{
+    content: '►';
+    color: white;
+    position: absolute;
+}
+nav .submenu{
+    position: absolute;
+    width: 220px;
+    display: none;
+}
+nav .submenu{
+    background: rgba(190, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+nav .submenu a:hover {
+    background: black;
+}
