@@ -1,71 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background: url('../pics/bg-body.jpg') fixed;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif
 }
-  
-.topnav {
-    overflow: hidden;
-    background-color: #9f9f9f;
+
+* {
+    box-sizing: border-box
 }
-  
-.topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 17px;
+.wrapper {
+    max-width: 800px;
+    margin: 40px auto;
 }
-  
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
+header {
+    background: url(../pics/bg-header.jpg) no-repeat;
+    height: 360px;
 }
-  
-.topnav a.active {
-    background-color: #04AA6D;
+nav{
+    background: rgba(190, 0, 0, 0.8);
+}
+nav a{
     color: white;
-}
-
-div {
-    color:white;
-    font-size: 40px;
-    text-align: center;
-}
-
-div.kep { 
-    position: relative; 
-}
-div.kep img {
-    position: absolute;
-    right: 0;
-    bottom: 70;
-}
-
-div.kep2 { 
-    position: relative; 
-}
-div.kep2 img {
-    position: absolute;
-  top: 8px;
-  left: 16px;
-  font-size: 18px;
-}
-
-a {
-    font-size: 30px;
     text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+nav a:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
 }
 
-a video {
-    color: tomato;
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left;
+}
+main{
+    background: white;
+    padding: 40px;
+}
+main p{
+    line-height: 1.5;
 }
 
-div.link a {
-    color: orange;
+ nav .has-submenu{
+    position: relative;
 }
 
-.wrapper{
-    
+nav .has-submenu:hover .submenu{
+    display: block;
+}
+ 
+.has-submenu::after{
+    content: '▼';
+    color: white;
+    position: absolute;
+}
+
+nav .submenu{
+    position: absolute;
+    width: 220px;
+    display: none;
+}
+nav .submenu a{
+    background: rgba(190, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav .submenu a:hover{
+    background: black;
 }
