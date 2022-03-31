@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body
+{
+    
+    background: url(hatter.png) fixed;
+    background-size: 100%;
+    background-position: 0% ;
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+    text-shadow:5px 0px rgb(0, 0, 0);
+    margin-right: 200px;
+    margin-left: 20px;
+
+}
+
+div {
+    box-shadow: 0 0 30px rgb(116, 116, 116);
+    box-sizing:content-box;
+}
+
+a {
+    color: rgb(198, 221, 255);
+    text-decoration: none;
+}
+
+li {
+    margin-left: 20px;
+}
+
+h1 {
+    padding-top: 30px;
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+.back {
+    color: darkred;
+    font-size: 70px;
+}
+
+.menusuwu {
+    color: purple;
+    font-size: 70px;
+}
+
+.firstgen {
+    color: rgb(248, 23, 60);
+}
+
+.secondgen {
+    color: gold;
+}
+
+.thirdgen {
+    color: rgb(77, 29, 77); 
+}
+
+.fourthgen {
+    color: rgb(136, 136, 136);
+}
+
+.pictures {
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+
+.gens:hover {
+    padding-left: 15px;
+    color: rgb(32, 109, 224);
+}
+
+.back:hover {
+    padding-left: 15px;
+    color: red;
+}
+
+.menusuwu:hover {
+    padding-left: 15px;
+    color: magenta;
+}
