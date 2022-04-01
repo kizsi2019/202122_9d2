@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: georgia;
+	background: url('../pics/bg-body.png') #fff
+}
+* {
+	box-sizing: border-box
+}
+a {
+	color: #354052
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.content{
+	display: flex;
+}
+
