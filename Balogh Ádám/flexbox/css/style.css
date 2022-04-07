@@ -106,13 +106,15 @@ nav a:hover{
 .recipes-box h2{
 	font-size: 18px;
 	padding: 10px 20px 0 20px;
+	margin: 0;
 
 }
 
 .recipes-box p{
 	margin: 0;
 	padding: 10px 20px;
-	
+	line-height:  19px;
+
 }
 
 .recipes{
