@@ -14,6 +14,17 @@ body {
 a {
 	color: #354052
 }
+h1{
+	font-family: 'Lobster';
+	text-align: center;
+	font-size: 70px;
+	border-top: 2px dashed rgba(0, 0, 0, 0.2);
+	border-bottom: 2px dashed rgba(0, 0, 0, 0.2);
+	padding: 20px 0;
+	margin: 40px 0;
+	background: rgba(255, 255, 255, 0.8);
+	color: #76b332;
+}
 .wrapper{
 	max-width: 1200px;
 	margin: 0 auto;
@@ -25,12 +36,34 @@ a {
 nav{
 	background: url(../pics/bg-menu.jpg);
 	flex-basis: 20vw;
+	order: 1;
 }
 main{
 	flex-basis: 60vw;
+	order: 2;
 }
 aside{
 	flex-basis: 20vw;
+	order: 3;
+}
+aside ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+aside a{
+	display: block;
+	color: #354052;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px;
+}
+aside a:hover{
+	text-decoration: underline;
+}
+aside li{
+	padding: 15px 0;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 nav ul{
 	margin: 0;
@@ -57,10 +90,41 @@ nav a:hover{
 	padding: 0 0 10px 0;
 	margin: 0 10px 20px 10px;
 }
+.recipes-box h2{
+	font-size: 18px;
+	padding: 10px 20px 0 20px;
+	margin: 0;
+}
+.recipes-box p{
+	margin: 0;
+	padding: 10px 20px;
+	line-height: 19px;
+}
 .recipes {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0 -10px;
 }
 img{
 	max-width: 100%;
+}
+.pagination{
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 30px 0;
+	justify-content: flex-start;
+}
+.pagination .page{
+	display: inline-block;
+	padding: 5px 8px;
+	text-decoration: none;
+	background: white;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	color: #354052;
+	margin: 0 5px 5px 0;
+}
+.pagination .page:hover{
+	background: black;
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.2);
 }
