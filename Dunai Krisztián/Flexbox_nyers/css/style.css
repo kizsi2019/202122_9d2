@@ -40,15 +40,18 @@ h1 {
 nav{
 	background: url("../pics/bg-menu.jpg");
 	flex-basis: 20px;
+	order: 1;
 }
 
 main{
 	flex-basis: 60vw;
 	margin: 0 20px;
+	order: 2;
 }
 
 aside{
 	flex-basis: 20vw;
+	order: 3;
 }
 
 nav ul{
@@ -124,4 +127,26 @@ aside li{
 	margin: 0;	
 	padding: 10px 20px;
 	line-height: 19px;
+}
+
+.pagination{
+	display:  flex;
+	flex-flow: row wrap;
+	margin: 30px 0;
+	justify-content: flex-start;
+}
+
+.pagination .page{
+	display:  inline-block;
+	padding: 5px 8px;
+	text-decoration: none;
+	background: white;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	color: #354052;
+	margin: 0 5px 5px 0;
+}
+
+.pagination .page:hover{
+	background: black;
+	color: white
 }
