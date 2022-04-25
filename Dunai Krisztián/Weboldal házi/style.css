@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+* {
+	box-sizing: border-box
+}
+body {
+	background: url('../pics/bg-body.jpg') fixed;
+	background-size: cover;
+	font-family: 'Roboto'
+}
+
+.col {
+	background: white;
+	padding: 20px
+}
+
+.grid1 {
+	display: grid;
+	max-width: 1000px;
+	margin: 40px auto;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 10px
+}
+.grid1 .col-2  { grid-column: span 2  }
+.grid1 .col-3  { grid-column: span 3  }
+.grid1 .col-4  { grid-column: span 4  }
+.grid1 .col-6  { grid-column: span 6  }
+.grid1 .col-12 { grid-column: span 12 }
+
+.grid2 {
+	display: grid;
+	max-width: 1000px;
+	margin: 40px auto;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	grid-template-areas:
+		"header header header header"
+		"main main . sidebar"
+		"footer footer footer footer";
+}
+.grid2 .header  { grid-area: header }
+.grid2 .main    { grid-area: main }
+.grid2 .sidebar { grid-area: sidebar }
+.grid2 .footer  { grid-area: footer }
+
+.grid3 {
+	display: grid;
+	max-width: 1000px;
+	margin: 40px auto;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 10px
+}
+.grid3 .col-1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.grid3 .col-2 {
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+.grid3 .col-3 {
+	grid-area: 2 / 1 / 4 / 3
+}
