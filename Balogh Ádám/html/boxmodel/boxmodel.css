@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("../pics/back2.png");
+    background-image: url("pics/back2.png");
     background-repeat: repeat;
     color: white;
     margin: 0;
@@ -31,17 +31,17 @@ body {
 
 .box .header-image {
     height: 400px;
-    background-image: url("../pics/banner2.jpg")
+    background-image: url("pics/banner2.jpg")
 }
 
 .box2 .header-image {
     height: 330px;
-    background-image: url("../pics/t1.jpg")
+    background-image: url("pics/t1.jpg")
 }
 
 .box3 .header-image {
     height: 330px;
-    background-image: url("../pics/f1.jpeg")
+    background-image: url("pics/f1.jpeg")
 }
 
 .box .box-content {
