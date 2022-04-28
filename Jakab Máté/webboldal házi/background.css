@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(245, 245, 253);
+    margin-left: 20px;
+  }
+
+  div {
+    height: 1920;
+    width: 100%;
+  }
+
+  li {
+    display: inline;
+  }
+  
+  body {
+    background-image: url("poszter2.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+  
+
+  body {text-align:center;
+
+  }
