@@ -11,7 +11,7 @@ body
     font-size: 40px;
     font-style: bold;
     line-height: 34px;
-    color: rgb(255, 255, 255);
+    color: rgb(198, 221, 255);
     text-shadow:5px 0px rgb(0, 0, 0);
     margin-right: 200px;
     margin-left: 20px;
@@ -23,9 +23,14 @@ div {
     box-sizing:content-box;
 }
 
-a {
-    color: rgb(198, 221, 255);
+div .gens  {
+    box-shadow: none;
+    box-sizing: content-box;
+}
+
+a { 
     text-decoration: none;
+    color: rgb(198, 221, 255); 
 }
 
 li {
@@ -71,12 +76,6 @@ h3 {
     margin-top: 50px;
     margin-bottom: 12px;
 }
-
-.gens:hover {
-    padding-left: 15px;
-    color: rgb(32, 109, 224);
-}
-
 .back:hover {
     padding-left: 15px;
     color: red;
@@ -85,4 +84,20 @@ h3 {
 .menusuwu:hover {
     padding-left: 15px;
     color: magenta;
+}
+
+div .gens {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    max-width: 500px;
+}
+
+div .gens:hover {
+    padding-left: 30px;
+    color: rgb(32, 109, 224);
+}
+
+p:hover {
+    color: rgb(32, 109, 224);
 }
