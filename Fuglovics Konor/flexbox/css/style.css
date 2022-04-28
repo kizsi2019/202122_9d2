@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: georgia;
+	background: url('../pics/bg-body.png') #ffffff
+}
+* {
+	box-sizing: border-box
+}
+a {
+	color: #354052
+}
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto
+	
+}
+.content {
+	display: flex;
+	flex-flow: row
+}
+nav {
+	background: url(../pics/bg-menu.jpg);
+	flex-basis: 20vw
+}
+main {
+	flex-basis: 60vw
+}
+aside {
+	flex-basis: 20vw
+}
+nav ul {
+	margin: 0;
+	list-style: none;
+	padding: 30px 10px 10px 10px
+}
+nav li {
+	border-bottom: 1px dashed rgba(255,255,255,.3)
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+	display: block
+}
+nav a:hover {
+	background: rgba(255,255,255,.2)
+}
+.recipes-box {
+	flex: 1;
+	min-width: 250px;
+	background: white;
+	border: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 10px 20px 10px
+}
+.recipes {
+	display: flex;
+	flex-wrap: wrap
+}
+img {
+	max-width: 100%
+}

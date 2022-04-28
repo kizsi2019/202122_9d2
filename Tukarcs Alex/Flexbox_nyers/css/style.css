@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: georgia;
+	background: url('../pics/bg-body.png') #fff
+}
+* {
+	box-sizing: border-box
+}
+a {
+	color: #354052
+}
+
+/*
+a képek reszponzív működéséhez kell
+*/
+img {
+	max-width: 100%
+}
+
+h1 {
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto
+}
+header {
+	font-size: 70px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	border-top: 2px dashed rgba(0,0,0,0.2);
+	border-bottom: 2px dashed rgba(0,0,0,0.2);
+	padding: 20px 0;
+	margin: 40px 0;
+	background: rgba(255,255,255,0.8);
+	color: #76b332
+}
+
+
+
+/*
+a .content lesz a flexbox konténerünk, aminek az elemei
+nem törnek sorokba, és a magasságuk szét lesz húzva 100%-ra
+
+Flexbox dokumentáció:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+.content {
+	display: flex;
+	flex-wrap: nowrap;
+	min-height: 500px;
+	align-items: stretch
+}
+
+/*
+a vw a viewport-hoz képest relatív mértékegység
+CSS mértékegységekről bővebben:
+https://cyrex.hu/2017/11/09/css-mertekegysegek/
+*/
+nav {
+	background: #dfe0e5;
+	background: url('../pics/bg-menu.jpg') center center;
+	order: 1;
+	flex-basis: 20vw;
+}
+nav ul {
+	margin: 0;
+	padding: 30px 10px 10px 10px;
+	list-style: none;
+}
+nav li {
+	border-bottom: 1px dashed rgba(255,255,255,0.3)
+}
+nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+nav a:hover {
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+main {
+	flex-basis: 60vw;
+	order: 2;
+	margin: 0 20px;
+}
+aside {
+	flex-basis: 20vw;
+	order: 3
+}
+aside ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+aside a {
+	display: block;
+	color: #354052;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px
+}
+aside a:hover {
+	text-decoration: underline
+}
+aside li {
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+footer {
+	background: #dfe0e5;
+	padding: 20px;
+	margin: 20px 0
+}
+
+
+
+.pagination {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 30px
+}
+.pagination .page {
+	display: inline-block;
+	padding: 5px 7px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 0 10px 10px 0;
+	text-decoration: none
+	
+}
+.pagination .page:hover,
+.pagination span.page {
+	background: #000;
+	color: #fff
+}
+
+
+
+
+.recipes {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px
+}
+.recipe-box {
+	flex: 1;
+	min-width: 250px;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 10px 20px 10px
+}
+.recipe-box h2 {
+	font-size: 18px;
+	padding: 10px 20px 0 20px;
+	margin: 0
+}
+.recipe-box p {
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 19px
+}@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	font-family: georgia;
+	background: url('../pics/bg-body.png') #fff
+}
+* {
+	box-sizing: border-box
+}
+a {
+	color: #354052
+}
+
+/*
+a képek reszponzív működéséhez kell
+*/
+img {
+	max-width: 100%
+}
+
+h1 {
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto
+}
+header {
+	font-size: 70px;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	border-top: 2px dashed rgba(0,0,0,0.2);
+	border-bottom: 2px dashed rgba(0,0,0,0.2);
+	padding: 20px 0;
+	margin: 40px 0;
+	background: rgba(255,255,255,0.8);
+	color: #76b332
+}
+
+
+
+/*
+a .content lesz a flexbox konténerünk, aminek az elemei
+nem törnek sorokba, és a magasságuk szét lesz húzva 100%-ra
+
+Flexbox dokumentáció:
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*/
+.content {
+	display: flex;
+	flex-wrap: nowrap;
+	min-height: 500px;
+	align-items: stretch
+}
+
+/*
+a vw a viewport-hoz képest relatív mértékegység
+CSS mértékegységekről bővebben:
+https://cyrex.hu/2017/11/09/css-mertekegysegek/
+*/
+nav {
+	background: #dfe0e5;
+	background: url('../pics/bg-menu.jpg') center center;
+	order: 1;
+	flex-basis: 20vw;
+}
+nav ul {
+	margin: 0;
+	padding: 30px 10px 10px 10px;
+	list-style: none;
+}
+nav li {
+	border-bottom: 1px dashed rgba(255,255,255,0.3)
+}
+nav a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: #fff;
+}
+nav a:hover {
+	background: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+main {
+	flex-basis: 60vw;
+	order: 2;
+	margin: 0 20px;
+}
+aside {
+	flex-basis: 20vw;
+	order: 3
+}
+aside ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+aside a {
+	display: block;
+	color: #354052;
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 20px
+}
+aside a:hover {
+	text-decoration: underline
+}
+aside li {
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+footer {
+	background: #dfe0e5;
+	padding: 20px;
+	margin: 20px 0
+}
+
+
+
+.pagination {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 30px
+}
+.pagination .page {
+	display: inline-block;
+	padding: 5px 7px;
+	background: #fff;
+	border: 1px solid rgba(0,0,0,0.2);
+	margin: 0 10px 10px 0;
+	text-decoration: none
+	
+}
+.pagination .page:hover,
+.pagination span.page {
+	background: #000;
+	color: #fff
+}
+
+
+
+
+.recipes {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px
+}
+.recipe-box {
+	flex: 1;
+	min-width: 250px;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 0 0 10px 0;
+	margin: 0 10px 20px 10px
+}
+.recipe-box h2 {
+	font-size: 18px;
+	padding: 10px 20px 0 20px;
+	margin: 0
+}
+.recipe-box p {
+	margin: 0;
+	padding: 10px 20px;
+	font-size: 14px;
+	line-height: 19px
+}
