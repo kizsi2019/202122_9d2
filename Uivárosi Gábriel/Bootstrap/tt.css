@@ -1,0 +1,19 @@
+body{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.wrapper {
+	max-width: 1000px
+}
+.nn{
+    background-color: rgb(0, 238, 255);
+}
+
+.nn :hover{
+    background-color: rgb(0, 162, 255);
+}
+.visza{
+ background-color: azure;
+}
+.visza :hover{
+    background-color: aliceblue;
+}
