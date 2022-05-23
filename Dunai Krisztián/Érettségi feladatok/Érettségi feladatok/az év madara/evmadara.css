@@ -1,0 +1,123 @@
+body {
+    padding: 10px;
+    color: #333a40; 
+    background-color: rgba(253, 217, 169, 0.30);
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+header {        
+    overflow: hidden; 
+    height: 400px;
+}
+
+header img {
+    object-fit: cover;    
+}
+
+nav {
+    position: relative;
+    top: -35px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+a {
+    color: rgb(32, 30, 49);
+}
+
+h1, h2, h3 {
+    color: orangered;
+    margin: 20px 0px;    
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-size: 28pt;
+}
+
+h3 {
+    font-size: 22pt;
+}
+
+p {
+    line-height: 150%;
+    text-indent: 20px;
+}
+
+lista {
+    line-height:200%
+}
+
+href {
+    font-style: bold;
+  }
+
+.dijazott {    
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.drop-shadow {
+    -webkit-box-shadow: 0 0 5px 2px rgba(32, 30, 49, .5);
+    box-shadow: 0 0 5px 2px rgba(32, 30, 49, .5);
+}
+
+audio {
+    width: 100%;    
+}
+
+.border {
+    margin: 15px;
+    padding: 10px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    height: 100%;
+    background-color: rgba(253, 217, 169, .5);
+}
+
+.nyertes {
+    margin-bottom: 30px;
+}
+
+#evszalag {
+    float: left;
+    text-align: center;
+    background-image: url(kepek/idoszalag.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+
+input[type="range"] {
+    writing-mode: bt-lr; /* IE */
+    -webkit-appearance: slider-vertical; /* WebKit */
+    height: 345px;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 18px;    
+}
+
+#nevjegy {
+    margin: 120px 0px;
+    text-align: center;
+    padding-right: 25px;
+}
+
+#nevjegy h2 {
+    font-size: 24pt;
+    margin-bottom: 50px;
+}
+
+#nevjegy h2 small {
+    color: #333a40; 
+}
+
+#velGomb {
+    color: rgb(32, 30, 49);
+    font-weight: bold;
+    cursor: pointer;
+}
