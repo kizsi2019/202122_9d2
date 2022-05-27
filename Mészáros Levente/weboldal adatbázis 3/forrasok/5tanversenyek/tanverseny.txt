@@ -1,0 +1,267 @@
+versenynev	tipus	esemeny	datum
+Magyar irodalom	OKTV	Nevezés	2004.10.01
+Magyar nyelv	OKTV	Nevezés	2004.10.01
+Történelem	OKTV	Nevezés	2004.10.01
+Földrajz	OKTV	Nevezés	2004.10.01
+Angol nyelv	OKTV	Nevezés	2004.10.01
+Francia nyelv I. kategória	OKTV	Nevezés	2004.10.01
+Francia nyelv II. kategória	OKTV	Nevezés	2004.10.01
+Német nyelv I. kategória	OKTV	Nevezés	2004.10.01
+Német nyelv II. kategória	OKTV	Nevezés	2004.10.01
+Olasz nyelv I. kategória	OKTV	Nevezés	2004.10.01
+Olasz nyelv II. kategória	OKTV	Nevezés	2004.10.01
+Orosz nyelv	OKTV	Nevezés	2004.10.01
+Spanyol nyelv	OKTV	Nevezés	2004.10.01
+Latin nyelv	OKTV	Nevezés	2004.10.01
+Matematika I. kategória	OKTV	Nevezés	2004.10.01
+Matematika II. kategória	OKTV	Nevezés	2004.10.01
+Matematika III. kategória	OKTV	Nevezés	2004.10.01
+Informatika I. kategória	OKTV	Nevezés	2004.10.01
+Informatika II. kategória	OKTV	Nevezés	2004.10.01
+Fizika I. kategória	OKTV	Nevezés	2004.10.01
+Fizika II. kategória	OKTV	Nevezés	2004.10.01
+Fizika III. kategória	OKTV	Nevezés	2004.10.01
+Biológia I. kategória	OKTV	Nevezés	2004.10.01
+Biológia II. kategória	OKTV	Nevezés	2004.10.01
+Kémia I. kategória	OKTV	Nevezés	2004.10.01
+Kémia II. kategória	OKTV	Nevezés	2004.10.01
+Filozófia magyar nyelven	OKTV	Nevezés	2004.10.01
+Filozófia idegen nyelven	OKTV	Nevezés	2004.10.01
+Mozgóképkultúra és médiaismeret	OKTV	Nevezés	2004.10.01
+Mûvészettörténet	OKTV	Nevezés	2004.10.01
+Nemzetiségi horvát nyelv	OKTV	Nevezés	2004.10.01
+Nemzetiségi német nyelv	OKTV	Nevezés	2004.10.01
+Nemzetiségi román nyelv	OKTV	Nevezés	2004.10.01
+Nemzetiségi szerb nyelv	OKTV	Nevezés	2004.10.01
+Nemzetiségi szlovák nyelv	OKTV	Nevezés	2004.10.01
+Nemzetiségi szlovén nyelv	OKTV	Nevezés	2004.10.01
+Angol Nyelvi Verseny	7-8. évf.	Nevezés	2004.10.10
+Német Nyelvi Verseny	7-8. évf.	Nevezés	2004.10.08
+Orosz Nyelvi Verseny	7-8. évf.	Nevezés	2004.10.11
+Öveges József Fizikaverseny	7-8. évf.	Nevezés	2004.10.31
+Simonyi Zsigmond Kárpát-medencei Helyesírási Verseny	7-8. évf.	Nevezés	2004.10.10
+Történelem Tantárgyi Verseny	7-8. évf.	Nevezés	2004.10.12
+Varga Tamás Országos Matematika Verseny	7-8. évf.	Nevezés	2004.10.08
+Zrínyi Ilona Matematikaverseny	7-8. évf.	Nevezés	2005.01.12
+Ábel Jenõ Országos Latin Verseny	7-10. évf.	Nevezés	2005.01.10
+Curie Kémia Emlékverseny	7-10. évf.	Nevezés	2004.09.20
+KöMaL	7-10. évf.	Nevezés	2004.10.03
+Logo Számítástechnikai Verseny	7-10. évf.	Nevezés	2004.11.05
+Nemes Tihamér Országos Számítástechnikai Verseny	7-10. évf.	Nevezés	2004.10.15
+Arany Dániel Matematikai Verseny (haladó)	9-10. évf.	Nevezés	2004.10.08
+Arany Dániel Matematikai Verseny (kezdõ)	9-10. évf.	Nevezés	2004.10.08
+Arany János Irodalmi Verseny	9-10. évf.	Nevezés	2004.10.01
+Édes Anyanyelvünk - országos nyelvhasználati verseny	9-10. évf.	Nevezés	2004.09.20
+Európa Állampolgári Vetélkedõ	9-10. évf.	Leadás	2004.11.20
+Implom József Középiskolai Helyesírási Verseny	9-10. évf.	Nevezés	2004.11.15
+Irinyi János Országos Középiskolai Kémiaverseny	9-10. évf.	Nevezés	2004.12.05
+Kitaibel Pál Biológiai és Környezetvédelmi Verseny	9-10. évf.	Nevezés	2004.11.06
+Középiskolások Angol Nyelvi Versenye	9-10. évf.	Nevezés	2004.10.20
+Lóczy Lajos Országos Földrajz Verseny	9-10. évf.	Nevezés	2005.02.15
+Magyarország az én hazám	9-10. évf.	Nevezés	2004.11.20
+Mikola Sándor Országos Tehetségkutató Fizikaverseny	9-10. évf.	Nevezés	2004.12.05
+Polgár az Európai Demokráciában	9-10. évf.	Nevezés	2004.10.01
+Történelem Tantárgyi Verseny	9-10. évf.	Nevezés	2004.10.12
+Dr. Árokszállásy Z. Biológia-környezetvédelmi Verseny	vegyes	Nevezés	2004.11.12
+Less Nándor Országos Földrajzverseny	vegyes	Nevezés	2005.01.28
+Mit ránk hagytak a századok…	vegyes	Nevezés	2004.10.15
+Örökségünk’48	vegyes	Nevezés	2004.11.20
+Országos Szilárd Leó Fizikaverseny	vegyes	Nevezés	2004.12.15
+Magyar irodalom	OKTV	I. forduló	2004.11.15
+Magyar nyelv	OKTV	I. forduló	2004.11.10
+Történelem	OKTV	I. forduló	2004.11.09
+Földrajz	OKTV	I. forduló	2004.11.08
+Angol nyelv	OKTV	I. forduló	2004.11.16
+Francia nyelv I. kategória	OKTV	I. forduló	2004.11.23
+Francia nyelv II. kategória	OKTV	I. forduló	2004.11.23
+Német nyelv I. kategória	OKTV	I. forduló	2004.11.30
+Német nyelv II. kategória	OKTV	I. forduló	2004.11.30
+Olasz nyelv I. kategória	OKTV	I. forduló	2004.11.22
+Olasz nyelv II. kategória	OKTV	I. forduló	2004.11.22
+Orosz nyelv	OKTV	I. forduló	2004.12.06
+Spanyol nyelv	OKTV	I. forduló	2004.12.07
+Latin nyelv	OKTV	I. forduló	2004.12.01
+Matematika I. kategória	OKTV	I. forduló	2004.10.28
+Matematika II. kategória	OKTV	I. forduló	2004.10.28
+Matematika III. kategória	OKTV	I. forduló	2004.12.02
+Informatika I. kategória	OKTV	I. forduló	2004.12.09
+Informatika II. kategória	OKTV	I. forduló	2004.11.11
+Fizika I. kategória	OKTV	I. forduló	2004.11.18
+Fizika II. kategória	OKTV	I. forduló	2004.11.18
+Fizika III. kategória	OKTV	I. forduló	2004.11.18
+Biológia I. kategória	OKTV	I. forduló	2004.11.24
+Biológia II. kategória	OKTV	I. forduló	2004.11.24
+Kémia I. kategória	OKTV	I. forduló	2004.12.08
+Kémia II. kategória	OKTV	I. forduló	2004.12.08
+Mozgóképkultúra és médiaismeret	OKTV	I. forduló	2005.01.14
+Mûvészettörténet	OKTV	I. forduló	2004.10.18
+Nemzetiségi horvát nyelv	OKTV	I. forduló	2005.01.11
+Nemzetiségi német nyelv	OKTV	I. forduló	2005.01.11
+Nemzetiségi román nyelv	OKTV	I. forduló	2005.01.11
+Nemzetiségi szerb nyelv	OKTV	I. forduló	2005.01.11
+Nemzetiségi szlovák nyelv	OKTV	I. forduló	2005.01.11
+Nemzetiségi szlovén nyelv	OKTV	I. forduló	2005.01.11
+Angol Nyelvi Verseny	7-8. évf.	I. forduló	2004.11.16
+Herman Ottó Országos Biológia Verseny	7-8. évf.	I. forduló	2005.01.03
+Hevesy György Országos Kémia Verseny	7-8. évf.	I. forduló	2005.01.03
+Német Nyelvi Verseny	7-8. évf.	I. forduló	2004.11.18
+Orosz Nyelvi Verseny	7-8. évf.	I. forduló	2004.11.25
+Öveges József Fizikaverseny	7-8. évf.	I. forduló	2005.01.11
+Simonyi Zsigmond Kárpát-medencei Helyesírási Verseny	7-8. évf.	I. forduló	2004.11.24
+Szép Magyar Beszéd - verseny	7-8. évf.	I. forduló	2004.12.16
+Teleki Pál Országos Földrajz-Földtan Verseny	7-8. évf.	I. forduló	2005.02.18
+Történelem Tantárgyi Verseny	7-8. évf.	I. forduló	2004.12.07
+Varga Tamás Országos Matematika Verseny	7-8. évf.	I. forduló	2004.11.04
+Zrínyi Ilona Matematikaverseny	7-8. évf.	I. forduló	2005.02.25
+Ábel Jenõ Országos Latin Verseny	7-10. évf.	I. forduló	2005.02.11
+Bod Péter Könyvtárhasználati Verseny	7-10. évf.	Leadás	2005.02.21
+Logo Számítástechnikai Verseny	7-10. évf.	I. forduló	2004.12.08
+Nemes Tihamér Országos Számítástechnikai Verseny	7-10. évf.	I. forduló	2004.11.11
+Országos Spanyol Nyelvû Vers- és Prózamondó Verseny	7-10. évf.	I. forduló	2005.03.10
+Arany Dániel Matematikai Verseny (haladó)	9-10. évf.	I. forduló	2004.12.09
+Arany Dániel Matematikai Verseny (kezdõ)	9-10. évf.	I. forduló	2005.02.24
+Arany János Irodalmi Verseny	9-10. évf.	I. forduló	2004.11.17
+Bugát Pál Természetismereti Mûveltségi Vetélkedõ	9-10. évf.	I. forduló	2005.04.09
+Irinyi János Országos Középiskolai Kémiaverseny	9-10. évf.	I. forduló	2005.02.02
+Kitaibel Pál Biológiai és Környezetvédelmi Verseny	9-10. évf.	I. forduló	2005.01.15
+Középiskolások Angol Nyelvi Versenye	9-10. évf.	I. forduló	2004.11.16
+Lóczy Lajos Országos Földrajz Verseny	9-10. évf.	I. forduló	2005.04.04
+Magyarország az én hazám	9-10. évf.	I. forduló	2005.02.12
+Mikola Sándor Országos Tehetségkutató Fizikaverseny	9-10. évf.	I. forduló	2005.02.15
+Polgár az Európai Demokráciában	9-10. évf.	I. forduló	2004.12.13
+Történelem Tantárgyi Verseny	9-10. évf.	I. forduló	2004.11.23
+Vizuális Verseny	9-10. évf.	Leadás	2005.01.08
+Dr. Árokszállásy Z. Biológia-környezetvédelmi Verseny	vegyes	I. forduló	2004.12.06
+Less Nándor Országos Földrajzverseny	vegyes	I. forduló	2005.03.07
+Mit ránk hagytak a századok…	vegyes	I. forduló	2005.01.14
+Örökségünk’48	vegyes	I. forduló	2005.02.12
+Országos Szilárd Leó Fizikaverseny	vegyes	I. forduló	2005.02.07
+Magyar irodalom	OKTV	II. forduló	2005.02.14
+Magyar nyelv	OKTV	II. forduló	2005.01.24
+Történelem	OKTV	II. forduló	2005.03.17
+Földrajz	OKTV	II. forduló	2005.02.18
+Angol nyelv	OKTV	II. forduló	2005.02.15
+Francia nyelv I. kategória	OKTV	II. forduló	2005.02.11
+Francia nyelv II. kategória	OKTV	II. forduló	2005.02.11
+Német nyelv I. kategória	OKTV	II. forduló	2005.02.24
+Német nyelv II. kategória	OKTV	II. forduló	2005.02.25
+Olasz nyelv I. kategória	OKTV	II. forduló	2005.03.01
+Olasz nyelv II. kategória	OKTV	II. forduló	2005.03.02
+Latin nyelv	OKTV	II. forduló	2005.02.16
+Matematika I. kategória	OKTV	II. forduló	2005.01.06
+Matematika II. kategória	OKTV	II. forduló	2005.01.06
+Informatika I. kategória	OKTV	II. forduló	2005.02.12
+Informatika II. kategória	OKTV	II. forduló	2005.01.15
+Fizika I. kategória	OKTV	II. forduló	2005.02.17
+Fizika II. kategória	OKTV	II. forduló	2005.02.17
+Fizika III. kategória	OKTV	II. forduló	2005.02.17
+Biológia I. kategória	OKTV	II. forduló	2005.02.21
+Biológia II. kategória	OKTV	II. forduló	2005.02.21
+Kémia I. kategória	OKTV	II. forduló	2005.02.10
+Kémia II. kategória	OKTV	II. forduló	2005.02.10
+Mûvészettörténet	OKTV	II. forduló	2005.02.23
+Angol Nyelvi Verseny	7-8. évf.	II. forduló	2005.01.18
+Herman Ottó Országos Biológia Verseny	7-8. évf.	II. forduló	2005.03.19
+Hevesy György Országos Kémia Verseny	7-8. évf.	II. forduló	2005.04.23
+Német Nyelvi Verseny	7-8. évf.	II. forduló	2005.03.17
+Nyelvünkben élünk - magyar nyelvi kommunikációs verseny	7-8. évf.	II. forduló	2005.01.18
+Öveges József Fizikaverseny	7-8. évf.	II. forduló	2005.04.05
+Simonyi Zsigmond Kárpát-medencei Helyesírási Verseny	7-8. évf.	II. forduló	2005.03.19
+Szép Magyar Beszéd - verseny	7-8. évf.	II. forduló	2005.02.22
+Teleki Pál Országos Földrajz-Földtan Verseny	7-8. évf.	II. forduló	2005.04.16
+Történelem Tantárgyi Verseny	7-8. évf.	II. forduló	2005.02.15
+Varga Tamás Országos Matematika Verseny	7-8. évf.	II. forduló	2005.01.13
+Bod Péter Könyvtárhasználati Verseny	7-10. évf.	II. forduló	2005.03.16
+Curie Környezetvédelmi Emlékverseny	7-10. évf.	II. forduló	2005.02.10
+Curie Kémia Emlékverseny	7-10. évf.	II. forduló	2005.03.10
+Logo Számítástechnikai Verseny	7-10. évf.	II. forduló	2005.02.26
+Nemes Tihamér Országos Számítástechnikai Verseny	7-10. évf.	II. forduló	2005.01.15
+Arany Dániel Matematikai Verseny (haladó)	9-10. évf.	II. forduló	2005.02.24
+Európa Állampolgári Vetélkedõ	9-10. évf.	Leadás	2005.02.01
+Irinyi János Országos Középiskolai Kémiaverseny	9-10. évf.	II. forduló	2005.03.16
+Kitaibel Pál Biológiai és Környezetvédelmi Verseny	9-10. évf.	II. forduló	2005.03.10
+Mikola Sándor Országos Tehetségkutató Fizikaverseny	9-10. évf.	II. forduló	2005.03.29
+Polgár az Európai Demokráciában	9-10. évf.	II. forduló	2005.02.24
+Történelem Tantárgyi Verseny	9-10. évf.	II. forduló	2005.02.03
+Mit ránk hagytak a századok…	vegyes	II. forduló	2005.02.11
+Magyar irodalom	OKTV	Döntõ	2005.04.14
+Magyar nyelv	OKTV	Döntõ	2005.04.08
+Történelem	OKTV	Döntõ	2005.04.21
+Földrajz	OKTV	Döntõ	2005.04.11
+Angol nyelv	OKTV	Döntõ	2005.04.07
+Francia nyelv I. kategória	OKTV	Döntõ	2005.04.15
+Francia nyelv II. kategória	OKTV	Döntõ	2005.04.15
+Német nyelv I. kategória	OKTV	Döntõ	2005.04.05
+Német nyelv II. kategória	OKTV	Döntõ	2005.04.06
+Olasz nyelv I. kategória	OKTV	Döntõ	2005.04.19
+Olasz nyelv II. kategória	OKTV	Döntõ	2005.04.20
+Orosz nyelv	OKTV	Döntõ	2005.03.16
+Spanyol nyelv	OKTV	Döntõ	2005.03.23
+Latin nyelv	OKTV	Döntõ	2005.04.04
+Matematika I. kategória	OKTV	Döntõ	2005.03.03
+Matematika II. kategória	OKTV	Döntõ	2005.03.03
+Matematika III. kategória	OKTV	Döntõ	2005.03.03
+Informatika I. kategória	OKTV	Döntõ	2005.04.09
+Informatika II. kategória	OKTV	Döntõ	2005.03.12
+Fizika I. kategória	OKTV	Döntõ	2005.04.23
+Fizika II. kategória	OKTV	Döntõ	2005.04.23
+Fizika III. kategória	OKTV	Döntõ	2005.04.23
+Biológia I. kategória	OKTV	Döntõ	2005.04.27
+Biológia II. kategória	OKTV	Döntõ	2005.04.27
+Kémia I. kategória	OKTV	Döntõ	2005.04.16
+Kémia II. kategória	OKTV	Döntõ	2005.04.16
+Filozófia magyar nyelven	OKTV	Döntõ	2005.03.05
+Filozófia idegen nyelven	OKTV	Döntõ	2005.03.19
+Mozgóképkultúra és médiaismeret	OKTV	Döntõ	2005.03.18
+Mûvészettörténet	OKTV	Döntõ	2005.04.13
+Nemzetiségi horvát nyelv	OKTV	Döntõ	2005.04.12
+Nemzetiségi német nyelv	OKTV	Döntõ	2005.04.12
+Nemzetiségi román nyelv	OKTV	Döntõ	2005.04.14
+Nemzetiségi szerb nyelv	OKTV	Döntõ	2005.03.21
+Nemzetiségi szlovák nyelv	OKTV	Döntõ	2005.04.18
+Nemzetiségi szlovén nyelv	OKTV	Döntõ	2005.04.22
+Angol Nyelvi Verseny	7-8. évf.	Döntõ	2005.04.23
+Herman Ottó Országos Biológia Verseny	7-8. évf.	Döntõ	2005.05.20
+Hevesy György Országos Kémia Verseny	7-8. évf.	Döntõ	2005.05.27
+Német Nyelvi Verseny	7-8. évf.	Döntõ	2005.05.20
+Nyelvünkben élünk - magyar nyelvi kommunikációs verseny	7-8. évf.	Döntõ	2005.06.08
+Orosz Nyelvi Verseny	7-8. évf.	Döntõ	2005.04.03
+Öveges József Fizikaverseny	7-8. évf.	Döntõ	2005.05.20
+Simonyi Zsigmond Kárpát-medencei Helyesírási Verseny	7-8. évf.	Döntõ	2005.05.28
+Szép Magyar Beszéd - verseny	7-8. évf.	Döntõ	2005.04.08
+Teleki Pál Országos Földrajz-Földtan Verseny	7-8. évf.	Döntõ	2005.05.13
+Történelem Tantárgyi Verseny	7-8. évf.	Döntõ	2005.04.15
+Varga Tamás Országos Matematika Verseny	7-8. évf.	Döntõ	2005.04.07
+Zrínyi Ilona Matematikaverseny	7-8. évf.	Döntõ	2005.03.23
+Ábel Jenõ Országos Latin Verseny	7-10. évf.	Döntõ	2005.04.23
+Bod Péter Könyvtárhasználati Verseny	7-10. évf.	Döntõ	2005.04.29
+Curie Környezetvédelmi Emlékverseny	7-10. évf.	Döntõ	2005.05.11
+Curie Kémia Emlékverseny	7-10. évf.	Döntõ	2005.05.14
+Logo Számítástechnikai Verseny	7-10. évf.	Döntõ	2005.04.23
+Nemes Tihamér Országos Számítástechnikai Verseny	7-10. évf.	Döntõ	2005.03.12
+Országos Spanyol Nyelvû Vers- és Prózamondó Verseny	7-10. évf.	Döntõ	2005.04.23
+Szent király követõi	7-10. évf.	Döntõ	2005.03.29
+Arany Dániel Matematikai Verseny (haladó)	9-10. évf.	Döntõ	2005.04.21
+Arany Dániel Matematikai Verseny (kezdõ)	9-10. évf.	Döntõ	2005.04.21
+Arany János Irodalmi Verseny	9-10. évf.	Döntõ	2005.04.29
+Bugát Pál Természetismereti Mûveltségi Vetélkedõ	9-10. évf.	Döntõ	2005.08.24
+Édes Anyanyelvünk - országos nyelvhasználati verseny	9-10. évf.	Döntõ	2004.10.14
+Európa Állampolgári Vetélkedõ	9-10. évf.	Döntõ	2005.03.12
+Implom József Középiskolai Helyesírási Verseny	9-10. évf.	Döntõ	2005.02.25
+Irinyi János Országos Középiskolai Kémiaverseny	9-10. évf.	Döntõ	2005.04.29
+Kitaibel Pál Biológiai és Környezetvédelmi Verseny	9-10. évf.	Döntõ	2005.04.22
+Középiskolások Angol Nyelvi Versenye	9-10. évf.	Döntõ	2005.01.27
+Kutató Diákok Országos Diákköri Konferenciája	9-10. évf.	Döntõ	2005.04.05
+Lóczy Lajos Országos Földrajz Verseny	9-10. évf.	Döntõ	2005.05.09
+Magyarország az én hazám	9-10. évf.	Döntõ	2005.03.12
+Mikola Sándor Országos Tehetségkutató Fizikaverseny	9-10. évf.	Döntõ	2005.05.15
+Nemzetközi Kenguru Matematikai Verseny	9-10. évf.	Döntõ	2005.03.17
+Polgár az Európai Demokráciában	9-10. évf.	Döntõ	2005.04.25
+Szép Magyar Beszéd - verseny	9-10. évf.	Döntõ	2005.04.22
+Történelem Tantárgyi Verseny	9-10. évf.	Döntõ	2005.01.03
+Dr. Árokszállásy Z. Biológia-környezetvédelmi Verseny	vegyes	Döntõ	2005.02.27
+Less Nándor Országos Földrajzverseny	vegyes	Döntõ	2005.04.23
+Mit ránk hagytak a századok…	vegyes	Döntõ	2005.03.17
+Örökségünk’48	vegyes	Döntõ	2005.03.12
+Országos Számítástechnikai Levelezõverseny	vegyes	Döntõ	2005.05.14
+Országos Szilárd Leó Fizikaverseny	vegyes	Döntõ	2004.09.11
