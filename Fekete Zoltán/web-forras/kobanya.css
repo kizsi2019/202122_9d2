@@ -1,0 +1,49 @@
+.bevezeto {
+  text-align: justify;
+  font-style: italic;
+}
+
+#kologo{
+  float:right;
+}
+
+.bevezeto:first-letter{
+  margin-left: 25px;
+}
+
+button {
+  border: 2px solid white;
+  background-color: orange;
+  float: right;
+  padding: 5px;
+}
+
+.vastag {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.suli{
+  cursor: pointer;
+  margin: 10px 0px;
+}
+
+#sulikep{
+  max-height: 400px; 
+  max-width: 400px;
+}
+
+#kepek img{
+  width: 95%; 
+  max-width: 300px;
+}
+
+h2{
+  font-variant: small-caps;
+  margin: 10px 0px 5px;
+  border-bottom: 2px solid darkblue;
+}
+
+video{
+  width: 70%;
+}
