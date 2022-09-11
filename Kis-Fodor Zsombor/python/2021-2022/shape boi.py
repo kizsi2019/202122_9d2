@@ -1,4 +1,4 @@
-import turtle
+import turtleé
 window = turtle.Screen()
 shapeboi = turtle.Turtle()
 
