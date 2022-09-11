@@ -1,0 +1,31 @@
+<table>
+  <tr>
+    <td>Elnevezés</td>
+  </tr>
+  <tr>
+    <td>Magyar név</td>
+    <td>Búbos banka</td>
+  </tr> 
+  <tr>
+    <td>Tudományos név</td>
+    <td>Upupa epops</td>
+  </tr>
+  <tr>
+    <td>Angol név</td>
+    <td>Eurasian Hoopoe</td>
+  </tr> 
+  <tr>
+    <td>Rendszertan</td>
+  </tr>
+  <tr>
+    <td>Rend</td>
+    <td>Szalakótaalakúak Coraciiformes</td>
+  </tr>
+  <tr>
+    <td>Család</td>
+    <td>Bankafélék Upupidae</td>
+  </tr> 
+  <tr>
+    <td>Védelem</td>
+  </tr>
+ </table> 
